@@ -1,0 +1,32 @@
+{
+  "name": "Distritony — Dulcería, Confitería y Galletería",
+  "short_name": "Distritony",
+  "description": "Catálogo digital Distritony. Arma tu pedido y envíalo por WhatsApp.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#FDF3E3",
+  "theme_color": "#FFD500",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/logo/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/logo/icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "assets/logo/distritony-icono.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

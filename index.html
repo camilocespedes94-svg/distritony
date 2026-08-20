@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Distritony | Catálogo de dulces, galletas y chocolates</title>
+<meta name="description" content="Catálogo digital Distritony — dulcería, confitería y galletería en Villanueva, Casanare. Arma tu pedido y envíalo por WhatsApp.">
+<link rel="canonical" href="https://camilocespedes94-svg.github.io/distritony/">
+
+<!-- App instalable en móvil -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/logo/icono-512.png">
+<meta name="theme-color" content="#FFD500">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Distritony">
+
+<!-- Vista previa al compartir el enlace (WhatsApp, Facebook, Instagram).
+     Open Graph exige URL absoluta y formato raster: el SVG no sirve aquí. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Distritony">
+<meta property="og:locale" content="es_CO">
+<meta property="og:url" content="https://camilocespedes94-svg.github.io/distritony/">
+<meta property="og:title" content="Distritony | Dulcería, Confitería y Galletería">
+<meta property="og:description" content="El surtido completo de tu tienda. Arma tu pedido y envíalo por WhatsApp.">
+<meta property="og:image" content="https://camilocespedes94-svg.github.io/distritony/assets/og-distritony.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Distritony — dulcería, confitería y galletería">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Distritony | Dulcería, Confitería y Galletería">
+<meta name="twitter:description" content="El surtido completo de tu tienda. Arma tu pedido y envíalo por WhatsApp.">
+<meta name="twitter:image" content="https://camilocespedes94-svg.github.io/distritony/assets/og-distritony.png">
+
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 44 28%22><path d=%22M12,9 L3,2 L7,14 L3,26 L12,19 Z%22 fill=%22%23C41E33%22/><path d=%22M32,9 L41,2 L37,14 L41,26 L32,19 Z%22 fill=%22%23C41E33%22/><rect x=%2212%22 y=%228%22 width=%2220%22 height=%2212%22 rx=%226%22 fill=%22%23F0A202%22/></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Big+Shoulders:wght@700;800&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<a class="skip-link" href="#catalogo">Ir al catálogo</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+  <!-- Separador de sección: chevron cóncavo (silueta del envoltorio del logo) -->
+  <symbol id="wrapperEdge" viewBox="0 0 24 40" preserveAspectRatio="none">
+    <path d="M0,0 C7,7 12,14 12,20 C12,26 7,33 0,40 L24,40 L24,0 Z"></path>
+  </symbol>
+
+  <!-- ============ Logo evolucionado — gradientes, filtro e ísotopo (fuente de verdad visual) ============ -->
+  <linearGradient id="bodyG" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#FFD75A"/><stop offset="42%" stop-color="#F0A202"/><stop offset="100%" stop-color="#B87200"/>
+  </linearGradient>
+  <linearGradient id="bodyShad" x1="0%" y1="0%" x2="0%" y2="100%">
+    <stop offset="50%" stop-color="rgba(0,0,0,0)"/><stop offset="100%" stop-color="rgba(40,15,0,0.35)"/>
+  </linearGradient>
+  <radialGradient id="bodyShine" cx="68%" cy="28%" r="32%" fx="68%" fy="28%">
+    <stop offset="0%" stop-color="rgba(255,252,225,0.6)"/><stop offset="100%" stop-color="rgba(255,252,225,0)"/>
+  </radialGradient>
+  <linearGradient id="wrapG" x1="100%" y1="0%" x2="0%" y2="0%">
+    <stop offset="0%" stop-color="#9E1728"/><stop offset="50%" stop-color="#C41E33"/><stop offset="100%" stop-color="#B01C2E"/>
+  </linearGradient>
+  <filter id="candyShadow" x="-30%" y="-30%" width="160%" height="160%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="18" result="blur"/>
+    <feOffset dx="18" dy="24" result="offset"/>
+    <feComponentTransfer in="offset" result="shadow"><feFuncA type="linear" slope="0.55"/></feComponentTransfer>
+    <feMerge><feMergeNode in="shadow"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <clipPath id="bodyClip"><rect x="12" y="8" width="20" height="12" rx="6"/></clipPath>
+
+  <pattern id="tex-rayas" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="15" height="15" fill="#F0A202"/><rect width="7.5" height="15" fill="#FFC94A"/>
+  </pattern>
+
+  <!-- Candy icon — geometría aprobada, sin modificar -->
+  <g id="candyIcon">
+    <g transform="translate(56,0)"><g filter="url(#candyShadow)"><g transform="translate(318,266) scale(7.8) rotate(-7,22,14)">
+      <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z" fill="url(#wrapG)"/>
+      <path d="M12,8 C8.5,7 5,5 1,1 C1.8,4 3.5,7.5 5.5,11 Z" fill="rgba(230,90,105,0.4)"/>
+      <path d="M11,9 C10,11 9.5,12.5 9.5,14 C9.5,15.5 10,17 11,19" fill="none" stroke="rgba(80,8,18,0.45)" stroke-width="2.2" stroke-linecap="round"/>
+      <g fill="none" stroke="rgba(74,6,16,0.38)" stroke-width="0.45" stroke-linecap="round">
+        <path d="M11.6,9.4 C8.6,9.6 5,6.6 2.2,2.6"/><path d="M11.6,11.7 C8.8,11.9 6.6,10.6 5.2,8.4"/>
+        <path d="M11.6,16.3 C8.8,16.1 6.6,17.4 5.2,19.6"/><path d="M11.6,18.6 C8.6,18.4 5,21.4 2.2,25.4"/>
+      </g>
+      <g fill="none" stroke="rgba(242,128,142,0.26)" stroke-width="0.5" stroke-linecap="round">
+        <path d="M11.6,10.5 C9,10.8 5.6,8.2 3.4,5"/><path d="M11.6,17.5 C9,17.2 5.6,19.8 3.4,23"/>
+      </g>
+      <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z" fill="url(#wrapG)"/>
+      <path d="M32,8 C35.5,7 39,5 43,1 C42.2,4 40.5,7.5 38.5,11 Z" fill="rgba(230,90,105,0.4)"/>
+      <path d="M33,9 C34,11 34.5,12.5 34.5,14 C34.5,15.5 34,17 33,19" fill="none" stroke="rgba(80,8,18,0.45)" stroke-width="2.2" stroke-linecap="round"/>
+      <g fill="none" stroke="rgba(74,6,16,0.42)" stroke-width="0.45" stroke-linecap="round">
+        <path d="M32.4,9.4 C35.4,9.6 39,6.6 41.8,2.6"/><path d="M32.4,11.7 C35.2,11.9 37.4,10.6 38.8,8.4"/>
+        <path d="M32.4,16.3 C35.2,16.1 37.4,17.4 38.8,19.6"/><path d="M32.4,18.6 C35.4,18.4 39,21.4 41.8,25.4"/>
+      </g>
+      <g fill="none" stroke="rgba(242,128,142,0.18)" stroke-width="0.5" stroke-linecap="round">
+        <path d="M32.4,10.5 C35,10.8 38.4,8.2 40.6,5"/><path d="M32.4,17.5 C35,17.2 38.4,19.8 40.6,23"/>
+      </g>
+      <rect x="12" y="8" width="20" height="12" rx="6" fill="url(#bodyG)"/>
+      <g clip-path="url(#bodyClip)">
+        <line x1="-14" y1="27" x2="9" y2="4" stroke="rgba(122,62,0,0.22)" stroke-width="1.7"/>
+        <line x1="-10.6" y1="27" x2="12.4" y2="4" stroke="rgba(255,242,196,0.17)" stroke-width="0.7"/>
+        <line x1="-7.2" y1="27" x2="15.8" y2="4" stroke="rgba(122,62,0,0.22)" stroke-width="1.7"/>
+        <line x1="-3.8" y1="27" x2="19.2" y2="4" stroke="rgba(255,242,196,0.17)" stroke-width="0.7"/>
+        <line x1="-0.4" y1="27" x2="22.6" y2="4" stroke="rgba(122,62,0,0.22)" stroke-width="1.7"/>
+        <line x1="3" y1="27" x2="26" y2="4" stroke="rgba(255,242,196,0.17)" stroke-width="0.7"/>
+        <line x1="6.4" y1="27" x2="29.4" y2="4" stroke="rgba(122,62,0,0.22)" stroke-width="1.7"/>
+        <line x1="9.8" y1="27" x2="32.8" y2="4" stroke="rgba(255,242,196,0.15)" stroke-width="0.7"/>
+        <line x1="13.2" y1="27" x2="36.2" y2="4" stroke="rgba(122,62,0,0.24)" stroke-width="1.7"/>
+        <line x1="16.6" y1="27" x2="39.6" y2="4" stroke="rgba(255,242,196,0.12)" stroke-width="0.7"/>
+        <line x1="20" y1="27" x2="43" y2="4" stroke="rgba(122,62,0,0.26)" stroke-width="1.7"/>
+        <line x1="23.4" y1="27" x2="46.4" y2="4" stroke="rgba(255,242,196,0.10)" stroke-width="0.7"/>
+        <line x1="26.8" y1="27" x2="49.8" y2="4" stroke="rgba(122,62,0,0.28)" stroke-width="1.7"/>
+        <rect x="12" y="8" width="2.6" height="12" fill="rgba(90,42,0,0.30)"/>
+        <rect x="29.4" y="8" width="2.6" height="12" fill="rgba(70,32,0,0.38)"/>
+      </g>
+      <rect x="12" y="8" width="20" height="12" rx="6" fill="url(#bodyShine)"/>
+      <rect x="12" y="8" width="20" height="12" rx="6" fill="url(#bodyShad)"/>
+      <rect x="12" y="8" width="20" height="12" rx="6" fill="none" stroke="rgba(30,12,5,0.65)" stroke-width="0.45"/>
+    </g></g></g>
+  </g>
+
+  <!-- Lockup completo — claro (header, papelería) -->
+  <g id="logoClaro">
+    <use href="#candyIcon"/>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="none" stroke="#2E1A10" stroke-width="6" stroke-linejoin="round">Distri</text>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="none" stroke="#FFFCF6" stroke-width="3" stroke-linejoin="round">Distri</text>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="#2E1A10">Distri</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="none" stroke="#2E1A10" stroke-width="12" stroke-linejoin="round">tony</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="none" stroke="#FFFCF6" stroke-width="6" stroke-linejoin="round">tony</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="url(#tex-rayas)">tony</text>
+    <path d="M 826,452 C 866,446 940,443 1016,446 C 1072,448 1122,446 1160,449 C 1174,450 1178,454 1166,457 C 1136,462 1060,458 984,461 C 930,463 880,462 850,460 C 832,459 820,456 826,452 Z" fill="#F0A202" opacity="0.9"/>
+    <path d="M 852,452 C 914,449 1004,448 1106,451 C 1130,452 1154,454 1146,456" fill="none" stroke="#C97F00" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <!-- Lockup completo — oscuro (footer) -->
+  <g id="logoOscuro">
+    <use href="#candyIcon"/>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="none" stroke="#FFFCF6" stroke-width="5" stroke-linejoin="round">Distri</text>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="none" stroke="#4A2E1E" stroke-width="2.5" stroke-linejoin="round">Distri</text>
+    <text x="668" y="412" font-family="'Big Shoulders','Arial Black',sans-serif" font-weight="700" font-size="74" letter-spacing="-1" fill="#FDF3E3">Distri</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="none" stroke="#FFFCF6" stroke-width="10" stroke-linejoin="round">tony</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="none" stroke="#4A2E1E" stroke-width="5" stroke-linejoin="round">tony</text>
+    <text x="822" y="420" font-family="'Bricolage Grotesque',Georgia,sans-serif" font-weight="700" font-size="132" letter-spacing="-2" fill="url(#tex-rayas)">tony</text>
+    <path d="M 826,452 C 866,446 940,443 1016,446 C 1072,448 1122,446 1160,449 C 1174,450 1178,454 1166,457 C 1136,462 1060,458 984,461 C 930,463 880,462 850,460 C 832,459 820,456 826,452 Z" fill="#F0A202" opacity="0.9"/>
+    <path d="M 852,452 C 914,449 1004,448 1106,451 C 1130,452 1154,454 1146,456" fill="none" stroke="#C97F00" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+  </g>
+
+  <!-- ============ Universo gráfico de dulces — mismo lenguaje del isotipo, en miniatura ============ -->
+  <symbol id="lolliAmber" viewBox="0 0 40 62">
+    <rect x="18" y="30" width="4" height="30" rx="2" fill="#FDF3E3"/>
+    <circle cx="20" cy="17" r="16" fill="url(#tex-rayas)"/>
+    <circle cx="20" cy="17" r="16" fill="none" stroke="#2E1A10" stroke-width="1.4" opacity="0.5"/>
+    <ellipse cx="14" cy="11" rx="4.5" ry="2.6" fill="rgba(255,255,255,0.45)" transform="rotate(-25 14 11)"/>
+  </symbol>
+  <symbol id="miniCandyA" viewBox="0 0 44 28">
+    <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z" fill="#C41E33"/>
+    <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z" fill="#C41E33"/>
+    <rect x="12" y="8" width="20" height="12" rx="6" fill="#FFD500"/>
+    <ellipse cx="18" cy="11.5" rx="3.4" ry="1.6" fill="rgba(255,255,255,0.55)"/>
+  </symbol>
+  <symbol id="miniCandyD" viewBox="0 0 44 28">
+    <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z" fill="#E85D8A"/>
+    <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z" fill="#E85D8A"/>
+    <rect x="12" y="8" width="20" height="12" rx="6" fill="#FDF3E3"/>
+    <ellipse cx="18" cy="11.5" rx="3.4" ry="1.6" fill="rgba(255,255,255,0.7)"/>
+  </symbol>
+  <symbol id="miniCandyB" viewBox="0 0 44 28">
+    <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z" fill="#E8792E"/>
+    <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z" fill="#E8792E"/>
+    <rect x="12" y="8" width="20" height="12" rx="6" fill="#E85D8A"/>
+    <ellipse cx="18" cy="11.5" rx="3.4" ry="1.6" fill="rgba(255,255,255,0.55)"/>
+  </symbol>
+  <symbol id="miniCandyC" viewBox="0 0 44 28">
+    <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z" fill="#7CA33C"/>
+    <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z" fill="#7CA33C"/>
+    <rect x="12" y="8" width="20" height="12" rx="6" fill="#FFD500"/>
+    <ellipse cx="18" cy="11.5" rx="3.4" ry="1.6" fill="rgba(255,255,255,0.55)"/>
+  </symbol>
+  <symbol id="gemVerde" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="11" fill="#7CA33C"/><circle cx="12" cy="12" r="11" fill="none" stroke="rgba(46,26,16,0.35)" stroke-width="1"/>
+    <ellipse cx="8.5" cy="8" rx="3" ry="1.8" fill="rgba(255,255,255,0.5)" transform="rotate(-30 8.5 8)"/>
+  </symbol>
+  <symbol id="gemRosado" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="11" fill="#E85D8A"/><circle cx="12" cy="12" r="11" fill="none" stroke="rgba(46,26,16,0.35)" stroke-width="1"/>
+    <ellipse cx="8.5" cy="8" rx="3" ry="1.8" fill="rgba(255,255,255,0.5)" transform="rotate(-30 8.5 8)"/>
+  </symbol>
+  <symbol id="gemAmbar" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="11" fill="#F0A202"/><circle cx="12" cy="12" r="11" fill="none" stroke="rgba(46,26,16,0.35)" stroke-width="1"/>
+    <ellipse cx="8.5" cy="8" rx="3" ry="1.8" fill="rgba(255,255,255,0.5)" transform="rotate(-30 8.5 8)"/>
+  </symbol>
+  <symbol id="gemNaranja" viewBox="0 0 24 24">
+    <circle cx="12" cy="12" r="11" fill="#E8792E"/><circle cx="12" cy="12" r="11" fill="none" stroke="rgba(46,26,16,0.35)" stroke-width="1"/>
+    <ellipse cx="8.5" cy="8" rx="3" ry="1.8" fill="rgba(255,255,255,0.5)" transform="rotate(-30 8.5 8)"/>
+  </symbol>
+  <symbol id="lolliCereza" viewBox="0 0 40 62">
+    <rect x="18" y="30" width="4" height="30" rx="2" fill="#FDF3E3"/>
+    <circle cx="20" cy="17" r="16" fill="url(#tex-rayas-cereza)"/>
+    <circle cx="20" cy="17" r="16" fill="none" stroke="#2E1A10" stroke-width="1.4" opacity="0.5"/>
+    <ellipse cx="14" cy="11" rx="4.5" ry="2.6" fill="rgba(255,255,255,0.45)" transform="rotate(-25 14 11)"/>
+  </symbol>
+  <pattern id="tex-rayas-cereza" width="15" height="15" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <rect width="15" height="15" fill="#C41E33"/><rect width="7.5" height="15" fill="#FDF3E3"/>
+  </pattern>
+
+  <!-- Silueta del envoltorio en miniatura, para patrones de fondo (footer) -->
+  <symbol id="wrapSilhouette" viewBox="0 0 44 28">
+    <path d="M12,8 C6,6.5 1,4 1,1 C1.5,5 4,10 7,14 C4,18 1.5,23 1,27 C1,24 6,21.5 12,20 Z"/>
+    <path d="M32,8 C38,6.5 43,4 43,1 C42.5,5 40,10 37,14 C40,18 42.5,23 43,27 C43,24 38,21.5 32,20 Z"/>
+    <rect x="12" y="8" width="20" height="12" rx="6"/>
+  </symbol>
+  </defs>
+</svg>
+
+<!-- HEADER / NAV -->
+<header class="site-header" id="inicio">
+  <div class="header-inner">
+    <a href="#inicio" class="brand" aria-label="Distritony - Inicio">
+      <svg class="brand-logo" viewBox="330 220 900 260" role="img" aria-label="Distritony"><use href="#logoClaro"/></svg>
+    </a>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
+      <button type="button" id="headerCartBtn" class="header-cart-btn" aria-label="Ver mi pedido">
+        <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1.4"></circle><circle cx="18" cy="21" r="1.4"></circle><path d="M2.5 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 7H6"></path></svg>
+        Mi pedido
+        <span class="header-cart-count" id="headerCartCount">0</span>
+      </button>
+      <a class="nav-whatsapp" id="navWhatsappBtn" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2m0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.27-4.37c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.83c0 4.55-3.7 8.24-8.25 8.24m4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.41 1.02 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29"/></svg>
+        Pedir por WhatsApp
+      </a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- PORTADA / HERO — composición editorial con productos reales del catálogo -->
+<section class="hero">
+  <div class="hero-inner">
+    <div class="hero-decor" aria-hidden="true">
+      <svg class="hero-candy hero-candy-1" viewBox="0 0 40 62"><use href="#lolliAmber"/></svg>
+      <svg class="hero-candy hero-candy-2" viewBox="0 0 44 28"><use href="#miniCandyA"/></svg>
+      <svg class="hero-candy hero-candy-3" viewBox="0 0 24 24"><use href="#gemRosado"/></svg>
+      <svg class="hero-candy hero-candy-4" viewBox="0 0 40 62"><use href="#lolliCereza"/></svg>
+      <svg class="hero-candy hero-candy-5" viewBox="0 0 44 28"><use href="#miniCandyC"/></svg>
+      <svg class="hero-candy hero-candy-6" viewBox="0 0 24 24"><use href="#gemAmbar"/></svg>
+      <svg class="hero-candy hero-candy-7" viewBox="0 0 44 28"><use href="#miniCandyB"/></svg>
+      <svg class="hero-candy hero-candy-8" viewBox="0 0 24 24"><use href="#gemNaranja"/></svg>
+    </div>
+    <div class="hero-copy">
+      <p class="eyebrow">Dulcería · Confitería · Galletería</p>
+      <h1 class="hero-title">El surtido<br><em>completo</em><br>de tu tienda</h1>
+      <p class="hero-subtitle">Distribuimos las marcas que tus clientes ya piden. Arma tu pedido en minutos y envíalo por WhatsApp.</p>
+    <div class="hero-actions">
+      <a href="#catalogo" class="btn btn-primary">Ver catálogo</a>
+      <a href="#" id="heroWhatsappBtn" class="btn btn-whatsapp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2m0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.27-4.37c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.83c0 4.55-3.7 8.24-8.25 8.24m4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.41 1.02 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29"/></svg>
+        Escríbenos ya
+      </a>
+    </div>
+      <div class="hero-stats" id="heroStats" aria-hidden="true"></div>
+    </div>
+
+    <!-- Muro de marcas: logos de las marcas que distribuye Distritony.
+         Cada celda lleva el color dominante de su marca detrás del logo. -->
+    <div class="hero-brands">
+      <span class="hero-brands-label">Marcas que distribuimos</span>
+      <div class="brand-wall">
+        <figure class="brand-cell brand--jet"><img src="images/marcas/jet.png" alt="Jet" loading="eager"></figure>
+        <figure class="brand-cell brand--festival"><img src="images/marcas/festival.png" alt="Festival" loading="eager"></figure>
+        <figure class="brand-cell brand--bonbonbum"><img src="images/marcas/bonbonbum.png" alt="Bon Bon Bum" loading="eager"></figure>
+        <figure class="brand-cell brand--trululu"><img src="images/marcas/trululu.png" alt="Trululu" loading="eager"></figure>
+        <figure class="brand-cell brand--supercoco"><img src="images/marcas/supercoco.png" alt="Supercoco" loading="lazy"></figure>
+        <figure class="brand-cell brand--okaloka"><img src="images/marcas/okaloka.png" alt="Oka Loka" loading="lazy"></figure>
+        <figure class="brand-cell brand--barrilete"><img src="images/marcas/barrilete.png" alt="Barrilete" loading="lazy"></figure>
+        <figure class="brand-cell brand--frunas"><img src="images/marcas/frunas.png" alt="Frunas" loading="lazy"></figure>
+        <figure class="brand-cell brand--pinpop"><img src="images/marcas/pinpop.png" alt="Pin Pop" loading="lazy"></figure>
+      </div>
+      <span class="hero-brands-more">Y muchas marcas más…</span>
+    </div>
+  </div>
+</section>
+
+<!-- Separador: punta de envoltorio del logo, repetida como borde de sección -->
+<div class="wrapper-divider" aria-hidden="true"></div>
+
+<!-- CATALOGO -->
+<main id="catalogo" class="catalogo">
+
+  <div class="catalog-heading">
+    <h2 class="catalog-heading-title">Catálogo</h2>
+    <svg class="catalog-heading-candy" viewBox="0 0 44 28" aria-hidden="true"><use href="#miniCandyD"/></svg>
+  </div>
+
+  <div class="toolbar">
+    <div class="search-wrap">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="searchInput" placeholder="Buscar producto o marca..." aria-label="Buscar producto o marca">
+    </div>
+    <div class="filters">
+      <select id="categoriaFilter" aria-label="Filtrar por categoría">
+        <option value="">Todas las categorías</option>
+      </select>
+      <select id="marcaFilter" aria-label="Filtrar por marca">
+        <option value="">Todas las marcas</option>
+      </select>
+    </div>
+  </div>
+
+  <nav class="cat-quicknav" id="catQuicknav" aria-label="Acceso rápido a categorías"></nav>
+
+  <div class="results-info" id="resultsInfo"></div>
+
+  <div class="product-grid" id="productGrid"></div>
+
+  <p class="empty-state" id="emptyState" hidden>No encontramos productos con esos filtros. Prueba con otro término o <button type="button" id="clearFiltersBtn" class="link-btn">limpia los filtros</button>.</p>
+
+</main>
+
+<!-- CONTACTO / FOOTER -->
+<footer class="site-footer" id="contacto">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <svg class="brand-logo brand-logo-footer" viewBox="330 220 900 260" role="img" aria-label="Distritony — Dulcería, Confitería y Galletería"><use href="#logoOscuro"/></svg>
+    </div>
+    <div class="footer-contact">
+      <p><strong>Villanueva, Casanare</strong></p>
+      <p class="footer-address">Cra 14 # 21 - 57</p>
+      <a href="https://maps.app.goo.gl/ZPr5CkbMpZdm61AL8" class="btn btn-amarillo btn-block footer-maps-btn">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+        Cómo llegar
+      </a>
+      <a href="#" id="footerWhatsappBtn" class="btn btn-whatsapp btn-block" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2m0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.27-4.37c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.83c0 4.55-3.7 8.24-8.25 8.24m4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.41 1.02 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29"/></svg>
+        Escríbenos por WhatsApp
+      </a>
+    </div>
+  </div>
+  <p class="footer-bottom">© <span id="footerYear"></span> Distritony. Catálogo informativo, sujeto a disponibilidad.</p>
+</footer>
+
+<!-- CARRITO / MI PEDIDO -->
+<button type="button" id="cartFab" class="cart-fab" aria-label="Mi pedido, 0 productos">
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+    <circle cx="9" cy="21" r="1.4"></circle><circle cx="18" cy="21" r="1.4"></circle>
+    <path d="M2.5 3h2l2.6 12.4a2 2 0 0 0 2 1.6h8.2a2 2 0 0 0 2-1.6L21 7H6"></path>
+  </svg>
+  <span id="cartCount" class="cart-badge cart-badge-empty">0</span>
+</button>
+
+<div id="cartOverlay" class="cart-overlay" hidden></div>
+
+<aside id="cartPanel" class="cart-panel" role="dialog" aria-modal="true" aria-hidden="true" aria-label="Mi pedido">
+  <div class="cart-panel-header">
+    <h2>Mi pedido</h2>
+    <button type="button" id="cartCloseBtn" class="cart-close" aria-label="Cerrar pedido">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><line x1="5" y1="5" x2="19" y2="19"></line><line x1="19" y1="5" x2="5" y2="19"></line></svg>
+    </button>
+  </div>
+
+  <div class="cart-panel-body">
+    <p id="cartEmpty" class="cart-empty" hidden>
+      <svg class="cart-empty-icon" viewBox="0 0 40 62" aria-hidden="true"><use href="#lolliAmber"/></svg>
+      Tu pedido está vacío.
+      <a href="#catalogo" id="cartEmptyBtn" class="btn btn-primary btn-sm">Ver catálogo</a>
+    </p>
+    <div id="cartItemsBox" class="cart-items"></div>
+  </div>
+
+  <div class="cart-panel-footer" id="cartFooterBox" hidden>
+    <p id="cartTotalBox" class="cart-total" hidden></p>
+    <div class="cart-cliente">
+      <label for="cartNombre">Nombre (opcional)</label>
+      <input type="text" id="cartNombre" placeholder="Tu nombre" autocomplete="name">
+      <label for="cartNotas">Observaciones (opcional)</label>
+      <textarea id="cartNotas" rows="2" placeholder="Ej: entregar en tienda del centro"></textarea>
+    </div>
+    <button type="button" id="cartSendBtn" class="btn btn-whatsapp btn-block">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.29-1.39a9.9 9.9 0 0 0 4.75 1.21h.01c5.46 0 9.9-4.45 9.9-9.91C21.96 6.45 17.5 2 12.04 2m0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.13.82.84-3.05-.2-.31a8.2 8.2 0 0 1-1.27-4.37c0-4.54 3.7-8.24 8.26-8.24 2.2 0 4.27.86 5.83 2.42a8.18 8.18 0 0 1 2.42 5.83c0 4.55-3.7 8.24-8.25 8.24m4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.81-.78.97-.15.17-.29.19-.54.06-.25-.12-1.04-.38-1.99-1.22-.73-.66-1.23-1.46-1.37-1.71-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.15.16-.25.24-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43-.14-.01-.31-.01-.48-.01-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.08 0 1.22.89 2.41 1.02 2.57.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.55.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.14-1.18-.06-.11-.23-.17-.48-.29"/></svg>
+      Enviar pedido por WhatsApp
+    </button>
+    <button type="button" id="cartClearBtn" class="link-btn cart-clear-btn">Vaciar pedido</button>
+  </div>
+</aside>
+
+<div id="cartToast" class="cart-toast" role="status" aria-live="polite"></div>
+
+<!-- Plantilla de línea del carrito (clonada por cart.js) -->
+<template id="cartItemTemplate">
+  <div class="cart-item">
+    <div class="cart-item-info">
+      <p class="cart-item-name"></p>
+      <p class="cart-item-pres"></p>
+      <p class="cart-item-price"></p>
+    </div>
+    <div class="cart-item-actions">
+      <div class="qty-stepper">
+        <button type="button" class="qty-btn qty-minus" aria-label="Disminuir cantidad">−</button>
+        <span class="qty-value">1</span>
+        <button type="button" class="qty-btn qty-plus" aria-label="Aumentar cantidad">+</button>
+      </div>
+      <button type="button" class="cart-item-remove">Eliminar</button>
+    </div>
+  </div>
+</template>
+
+<!-- Plantilla de tarjeta de producto (clonada por JS) -->
+<template id="productCardTemplate">
+  <article class="product-card">
+    <div class="card-media">
+      <img class="card-img" loading="lazy" alt="">
+      <div class="card-img-placeholder" aria-hidden="true">
+        <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
+        <span>Imagen próximamente</span>
+      </div>
+      <span class="card-cat-badge"></span>
+    </div>
+    <div class="card-body">
+      <span class="card-brand"></span>
+      <h3 class="card-title"></h3>
+      <p class="card-desc"></p>
+      <dl class="card-specs"></dl>
+      <p class="card-price"></p>
+    </div>
+    <div class="card-footer">
+      <button type="button" class="btn btn-primary btn-sm card-order-btn card-order-btn-full">
+        <svg class="icon-plus" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+        <span class="card-order-label">Agregar al pedido</span>
+      </button>
+      <div class="card-in-cart" hidden>
+        <span class="card-in-cart-badge">✓ En tu pedido</span>
+        <div class="qty-stepper card-qty-stepper">
+          <button type="button" class="qty-btn qty-minus" aria-label="Disminuir cantidad">−</button>
+          <span class="qty-value">1</span>
+          <button type="button" class="qty-btn qty-plus" aria-label="Aumentar cantidad">+</button>
+        </div>
+      </div>
+    </div>
+  </article>
+</template>
+
+<script src="script.js"></script>
+<script src="cart.js"></script>
+</body>
+</html>

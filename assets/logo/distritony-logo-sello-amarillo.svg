@@ -1,0 +1,43 @@
+<svg viewBox="0 0 1080 1080" width="1080" height="1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="rayas" width="14.14" height="14.14" patternTransform="rotate(48)" patternUnits="userSpaceOnUse">
+      <rect width="14.14" height="14.14" fill="#2E1A10"/>
+      <rect width="7" height="14.14" fill="#3C2517"/>
+    </pattern>
+    <linearGradient id="capsulaSheen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4A2E1E"/>
+      <stop offset="0.5" stop-color="#2E1A10"/>
+      <stop offset="1" stop-color="#20120A"/>
+    </linearGradient>
+  </defs>
+
+  <!-- sombra dura plana: firma del sistema -->
+  <circle cx="558" cy="558" r="470" fill="#2E1A10"/>
+
+  <!-- campo amarillo histórico -->
+  <circle cx="540" cy="540" r="470" fill="#FDC500" stroke="#2E1A10" stroke-width="14"/>
+  <circle cx="540" cy="540" r="470" fill="none" stroke="#D9A900" stroke-width="4" opacity="0.6"/>
+
+  <!-- ===== isotipo: caramelo, adaptado a cacao+cereza para leer sobre amarillo ===== -->
+  <g transform="translate(540,392) rotate(-4)">
+    <path d="M -158 -8 L -230 -95 L -214 -8 L -230 78 Z" fill="#C41E33"/>
+    <path d="M -158 -8 L -222 -78 L -204 -8 L -222 62 Z" fill="#E8556A" opacity="0.55"/>
+    <path d="M 158 -8 L 230 -95 L 214 -8 L 230 78 Z" fill="#C41E33"/>
+    <path d="M 158 -8 L 222 -78 L 204 -8 L 222 62 Z" fill="#E8556A" opacity="0.55"/>
+
+    <rect x="-158" y="-92" width="316" height="168" rx="46" ry="20" fill="url(#capsulaSheen)"/>
+    <rect x="-158" y="-92" width="316" height="168" rx="46" ry="20" fill="url(#rayas)" opacity="0.5"/>
+    <rect x="-152" y="-86" width="304" height="156" rx="40" ry="16" fill="none" stroke="#FDC500" stroke-width="4" opacity="0.35"/>
+    <rect x="-158" y="-92" width="316" height="168" rx="46" ry="20" fill="none" stroke="#2E1A10" stroke-width="9"/>
+  </g>
+
+  <ellipse cx="540" cy="533" rx="215" ry="10" fill="#2E1A10" opacity="0.10"/>
+
+  <!-- ===== wordmark: rojo sobre amarillo, la combinación histórica ===== -->
+  <text x="540" y="700" text-anchor="middle" font-family="'Fraunces', Georgia, serif" font-weight="900" font-size="123" letter-spacing="-2" fill="#2E1A10">Distri<tspan fill="#C41E33">tony</tspan></text>
+  <rect x="365" y="726" width="350" height="9" rx="4.5" fill="#C41E33"/>
+
+  <text x="540" y="790" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="700" font-size="30" letter-spacing="2" fill="#2E1A10" opacity="0.82">DULCERÍA · CONFITERÍA · GALLETERÍA</text>
+
+  <text x="540" y="960" text-anchor="middle" font-family="'Outfit', sans-serif" font-weight="600" font-size="21" letter-spacing="3" fill="#2E1A10" opacity="0.5">VILLANUEVA · CASANARE</text>
+</svg>
