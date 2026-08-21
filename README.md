@@ -24,9 +24,16 @@ distritony/
 ├── script.js               Carga los datos, arma las tarjetas, filtros y búsqueda
 ├── cart.js                 Carrito y mensaje de WhatsApp
 ├── manifest.webmanifest    Permite instalarlo como app en el móvil
+├── CLAUDE.md               Reglas permanentes del proyecto
 ├── data/
-│   ├── productos.json      ← LA BASE DE DATOS. Todo sale de aquí.
+│   ├── productos.json      ← EL CATÁLOGO PUBLICADO. Generado — nunca se edita a mano.
 │   └── esquema.md          Qué significa cada campo, cuál es obligatorio, cuál es público
+├── scripts/
+│   └── sheets-to-json.mjs  El generador: lee Google Sheets, valida, produce productos.json
+├── .github/workflows/      Publicación automática (ver docs/ARQUITECTURA.md)
+├── docs/
+│   ├── ACTUALIZAR-CATALOGO.md   Cómo editar productos — para quien administra la tienda
+│   └── ARQUITECTURA.md          Cómo funciona el pipeline — para quien toque el código
 ├── images/
 │   ├── productos/          184 fotos de producto
 │   └── marcas/             9 logos del muro de marcas
@@ -37,13 +44,21 @@ distritony/
 
 ## La regla que sostiene todo
 
-> **`data/productos.json` es la única fuente de verdad.**
-> Agregar un producto, cambiar una descripción, crear una categoría o poner una imagen se
-> hace editando ese archivo. **Nunca se toca el HTML.**
+> **`data/productos.json` es el contrato entre los datos y la página — pero ya no es donde se
+> edita.** Es un archivo **generado** automáticamente desde
+> [Google Sheets](https://docs.google.com/spreadsheets/d/1OfyPTnynDU5mpnpP6P1URUIH7J5YH0FVRTwMEwZFzdU/edit)
+> dos veces al día. Agregar un producto, cambiar un precio o marcarlo agotado se hace en esa
+> hoja — nunca editando `productos.json` directamente (se sobreescribe solo) ni tocando el
+> HTML.
 
 No hay un solo producto escrito dentro de `index.html`. La página tiene **una** plantilla
 (`<template id="productCardTemplate">`) que `script.js` clona una vez por producto. Las
 categorías y las marcas se deducen solas de los datos.
+
+**Para editar el catálogo del día a día, la guía es [`docs/ACTUALIZAR-CATALOGO.md`](docs/ACTUALIZAR-CATALOGO.md)** —
+escrita para quien administra la tienda, sin necesitar GitHub ni saber programar. Lo que sigue
+en este README es la referencia técnica del *formato* de los datos, útil para quien toque el
+generador o el frontend.
 
 ---
 
@@ -62,9 +77,11 @@ python -m http.server 8000
 
 Y abrir <http://localhost:8000>.
 
-### Agregar o modificar un producto
+### Cómo se ve un producto en el JSON generado
 
-Editar `data/productos.json`. Cada producto es un bloque como este:
+Esto es la *referencia del formato*, no una instrucción de edición — para agregar o modificar
+un producto de verdad, edita [la hoja de Sheets](docs/ACTUALIZAR-CATALOGO.md), no este archivo.
+Cada producto, ya generado, es un bloque como este:
 
 ```json
 {
@@ -100,25 +117,28 @@ Dos formas distintas de "sacar" un producto, para dos situaciones distintas:
 
 | Quiero que el producto... | Qué hacer | Qué ve el cliente |
 |---|---|---|
-| **Deje de existir** en el catálogo (se descontinuó, ya no se distribuye) | Bórralo de `productos.json`, o quítalo en el siguiente ciclo de generación desde el Excel maestro | Desaparece por completo |
-| **Se agote temporalmente**, pero siga siendo un producto real | Cambia su campo `"disponibilidad"` de `"disponible"` a `"no_disponible"` | Sigue viendo la tarjeta, con su foto y su precio, pero con una franja roja **"Agotado"** y sin poder agregarlo al pedido |
-| **Vuelva a estar en venta** | Cambia `"disponibilidad"` de vuelta a `"disponible"` | Vuelve a comprarse normalmente |
+| **Deje de existir** en el catálogo (se descontinuó, ya no se distribuye) | Columna `Activo` → `NO` en la hoja | Desaparece por completo |
+| **Se agote temporalmente**, pero siga siendo un producto real | Columna `Agotado` → escribe `Agotado` en la hoja | Sigue viendo la tarjeta, con su foto y su precio, pero con una franja roja **"Agotado"** y sin poder agregarlo al pedido |
+| **Vuelva a estar en venta** | Columna `Agotado` → deja la celda vacía | Vuelve a comprarse normalmente |
 
-No confundas los dos casos: borrar del JSON es para lo que ya no se vende nunca más; cambiar
-`disponibilidad` es para lo que hoy no hay en bodega pero se va a reponer. Si un cliente ya
-tenía ese producto en su carrito cuando se marca `no_disponible`, el carrito lo detecta solo,
-lo retira y le avisa — no puede llegar a enviarse en un pedido por WhatsApp.
+No confundas los dos casos: `Activo = NO` es para lo que ya no se vende nunca más; `Agotado`
+es para lo que hoy no hay en bodega pero se va a reponer. Si un cliente ya tenía ese producto
+en su carrito cuando se marca `Agotado`, el carrito lo detecta solo, lo retira y le avisa — no
+puede llegar a enviarse en un pedido por WhatsApp. Paso a paso completo en
+[`docs/ACTUALIZAR-CATALOGO.md`](docs/ACTUALIZAR-CATALOGO.md).
 
 ### Cambiar un precio
 
-Editar el campo `"precio"` del producto en `productos.json` (número entero, sin formato). El
-catálogo, el carrito y el mensaje de WhatsApp siempre calculan a partir de ese número — nunca
-hay que tocar nada más.
+Columna **Precio de venta** en la hoja. El catálogo, el carrito y el mensaje de WhatsApp
+siempre calculan a partir de ese número.
 
 ### Agregar una imagen
 
-1. Guardarla en `images/productos/` con el mismo nombre que el `id` del producto.
-2. Apuntar el campo `imagen` a esa ruta.
+Las fotos siguen viviendo en este repositorio, no en la hoja — Sheets solo guarda el *nombre*
+del archivo (columna **Imagen (archivo)**):
+
+1. Sube el archivo a `images/productos/` (requiere acceso al repositorio de GitHub).
+2. Escribe ese nombre exacto en la columna Imagen (archivo) de la fila del producto.
 
 Dos detalles que importan:
 
@@ -129,21 +149,11 @@ Dos detalles que importan:
 
 ### Crear una categoría
 
-Basta con dos cosas dentro de `data/productos.json`:
-
-1. Poner el nombre nuevo en el campo `categoria` de los productos que le corresponden.
-2. Registrar su ícono y su color en `meta.categorias`:
-
-```json
-"meta": {
-  "categorias": {
-    "Bebidas": { "icono": "🥤", "color": "#1E6F8C" }
-  }
-}
-```
-
-El menú, el filtro, los contadores y el color de la etiqueta aparecen solos. Si olvidas el
-paso 2 la categoría igual funciona: hereda el ícono y color de `_default`.
+En la pestaña **Categorias** de la hoja, agrega una fila con el nombre, el ícono y el color
+(formato `#RRGGBB`). El generador la recoge sola la próxima vez que publique — el menú, el
+filtro, los contadores y el color de la etiqueta aparecen sin tocar código. Una categoría sin
+esa configuración hace que el generador **aborte la publicación** en vez de mostrar una
+etiqueta sin estilo, así que este paso no es opcional.
 
 El color va detrás de texto blanco, así que conviene que sea oscuro — busca al menos 4,5:1
 de contraste.
@@ -152,11 +162,18 @@ de contraste.
 
 ## Publicar los cambios
 
-El sitio se actualiza solo al subir los cambios a GitHub. Tres comandos:
+Hay dos cosas distintas que "publicar" puede significar aquí:
+
+- **Cambios al catálogo** (productos, precios, categorías, disponibilidad) — se editan en
+  [Google Sheets](https://docs.google.com/spreadsheets/d/1OfyPTnynDU5mpnpP6P1URUIH7J5YH0FVRTwMEwZFzdU/edit)
+  y se publican solos, automáticamente, dos veces al día. Guía completa (sin git, sin
+  terminal) en [`docs/ACTUALIZAR-CATALOGO.md`](docs/ACTUALIZAR-CATALOGO.md).
+- **Cambios al código del sitio** (HTML, CSS, JS, o al generador en `scripts/`) — esos sí se
+  publican con git, de la forma normal:
 
 ```bash
 git add -A
-git commit -m "Actualiza catálogo: agrega productos de temporada"
+git commit -m "Ajusta el diseño de la tarjeta de producto"
 git push
 ```
 
@@ -171,6 +188,9 @@ git revert <código>      # deshacer un cambio concreto
 git push
 ```
 
+Esto **no** deshace cambios de catálogo — esos viven en Sheets, no en el historial de git.
+Para revertir un cambio de catálogo, corrígelo directamente en la hoja.
+
 ---
 
 ## Qué NO tocar
@@ -179,7 +199,8 @@ git push
 |---|---|
 | `.nojekyll` | Sin él, GitHub Pages procesa el sitio con Jekyll y puede ignorar archivos |
 | `index.html` | Solo para cambiar textos fijos. Los productos **nunca** van aquí |
-| El campo `id` de un producto existente | Rompe el enlace con su imagen y con los carritos ya guardados |
+| `data/productos.json` a mano | Es un archivo generado — la próxima publicación automática lo sobreescribe. Edita la hoja de Sheets, no este archivo |
+| El campo `id` de un producto existente (en la hoja o en el JSON) | Rompe el enlace con su imagen y con los carritos ya guardados |
 | Los 9 logos de `images/marcas/` | Están fijos en el HTML; cambiarlos es una decisión de marketing, no de catálogo |
 
 Y una regla que no admite excepción:
