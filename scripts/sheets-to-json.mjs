@@ -302,10 +302,21 @@ async function main() {
     return;
   }
 
+  // La fecha solo avanza si algo realmente cambió. Si se estampara la
+  // fecha de hoy en cada corrida, el archivo se vería "distinto" todos
+  // los días aunque ningún producto haya cambiado, y el workflow de
+  // publicación haría un commit vacío a diario — justo lo que la
+  // salvaguarda "publicar solo si hay cambios" existe para evitar.
+  const sinCambiosDeFondo =
+    JSON.stringify(productos) === JSON.stringify(anterior?.productos ?? null) &&
+    JSON.stringify(metaCategorias) === JSON.stringify(anterior?.meta?.categorias ?? null);
+
   const salida = {
     meta: {
       fuente: "Google Sheets",
-      ultima_actualizacion: new Date().toISOString().slice(0, 10),
+      ultima_actualizacion: sinCambiosDeFondo
+        ? anterior.meta.ultima_actualizacion
+        : new Date().toISOString().slice(0, 10),
       total_productos: productos.length,
       categorias: metaCategorias,
     },
@@ -313,7 +324,11 @@ async function main() {
   };
 
   await writeFile(OUTPUT_PATH, JSON.stringify(salida, null, 2), "utf-8");
-  console.log(`\nOK: ${productos.length} productos escritos en ${OUTPUT_PATH}.`);
+  console.log(
+    sinCambiosDeFondo
+      ? `\nOK: sin cambios de fondo; ${OUTPUT_PATH} queda igual (misma fecha).`
+      : `\nOK: ${productos.length} productos escritos en ${OUTPUT_PATH}.`
+  );
 }
 
 main().catch((err) => {
