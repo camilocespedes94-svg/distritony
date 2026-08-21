@@ -1,0 +1,62 @@
+name: Publicar catálogo desde Sheets
+
+# Fase 8 — publicación real. A diferencia de prueba-sheets.yml, este
+# workflow SÍ escribe data/productos.json y SÍ hace commit/push a main
+# cuando hay cambios válidos.
+#
+# Disparadores:
+#   - Manual (workflow_dispatch): para publicar de inmediato tras editar
+#     la hoja, sin esperar a la corrida automática.
+#   - Programado: dos veces al día, 11:00 a. m. y 4:00 p. m. hora de
+#     Bogotá (America/Bogota, UTC-5 todo el año, sin horario de verano),
+#     como respaldo para quien edite la hoja y olvide publicar a mano.
+#
+# Si el generador encuentra un error de validación, el job falla y
+# termina ahí: no se hace commit, no se toca el catálogo publicado.
+on:
+  workflow_dispatch: {}
+  schedule:
+    - cron: "0 16 * * *" # 11:00 America/Bogota
+    - cron: "0 21 * * *" # 16:00 America/Bogota
+
+permissions:
+  contents: write
+
+# Evita que dos corridas (ej. una manual y una programada) intenten
+# publicar al mismo tiempo y choquen al hacer push.
+concurrency:
+  group: publicar-catalogo
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: npm install --no-save google-auth-library
+
+      - name: Generar catálogo
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+        run: node scripts/sheets-to-json.mjs
+
+      - name: Publicar si hay cambios
+        run: |
+          git config user.name "distritony-bot"
+          git config user.email "actions@github.com"
+          if git diff --quiet -- data/productos.json; then
+            echo "Sin cambios respecto al catálogo publicado. No se hace commit."
+          else
+            git add data/productos.json
+            git commit -m "Actualiza catálogo desde Google Sheets [automático]"
+            git push
+            echo "Publicado."
+          fi
