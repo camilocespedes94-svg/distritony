@@ -40,17 +40,36 @@ const Cart = (function () {
     return catalogo.find((p) => p.id === id) || null;
   }
 
-  // Si el Excel se actualiza y un producto ya no existe, se retira solo del carrito
+  // Un producto "no_disponible" nunca debe poder viajar en el pedido, ni
+  // siquiera si entró al carrito cuando todavía estaba disponible.
+  function estaDisponible(p) {
+    return !!p && p.disponibilidad !== "no_disponible";
+  }
+
+  // Si el catálogo se actualiza y un producto ya no existe, o dejó de estar
+  // disponible, se retira solo del carrito — nunca se envía en silencio un
+  // pedido con algo que ya no se puede comprar.
   function pruneMissing() {
     if (!catalogo.length) return;
     let changed = false;
+    const retirados = [];
     for (const id of Object.keys(items)) {
-      if (!findProduct(id)) {
+      const p = findProduct(id);
+      if (!p) {
         delete items[id];
         changed = true;
+      } else if (!estaDisponible(p)) {
+        delete items[id];
+        changed = true;
+        retirados.push(p.nombreCompleto);
       }
     }
     if (changed) persistItems();
+    if (retirados.length === 1) {
+      showToast(`${retirados[0]} ya no está disponible y se quitó de tu pedido`);
+    } else if (retirados.length > 1) {
+      showToast(`${retirados.length} productos ya no están disponibles y se quitaron de tu pedido`);
+    }
   }
 
   function notify() {
@@ -65,16 +84,17 @@ const Cart = (function () {
   }
 
   function add(id, cantidad = 1) {
-    if (!findProduct(id)) return; // producto desconocido, no se agrega
+    const p = findProduct(id);
+    if (!estaDisponible(p)) return; // producto desconocido o no disponible: no se agrega
     items[id] = (items[id] || 0) + cantidad;
     persistItems();
     notify();
-    const p = findProduct(id);
     showToast(`${p.nombreCompleto} agregado a tu pedido`);
   }
 
   function setQty(id, cantidad) {
     if (!(id in items)) return;
+    if (!estaDisponible(findProduct(id))) return; // seguridad: no debería poder llegar aquí
     items[id] = Math.max(1, Math.floor(Number(cantidad) || 1));
     persistItems();
     notify();
@@ -114,6 +134,7 @@ const Cart = (function () {
           producto: p,
           precioUnit,
           subtotal: precioUnit != null ? precioUnit * cantidad : null,
+          disponible: estaDisponible(p),
         };
       })
       .filter(Boolean);
@@ -146,17 +167,41 @@ const Cart = (function () {
     }).format(n);
   }
 
+  // El total se suma con los valores numéricos (l.subtotal), nunca con el
+  // texto ya formateado — así un cambio de formato de moneda no puede
+  // desalinear el total respecto a las líneas.
   function buildMensaje(cliente) {
-    const lines = getLines();
+    const lines = getLines().filter((l) => l.disponible); // seguridad: nunca enviar algo no disponible
     if (!lines.length) return "";
 
-    const partes = ["¡Hola Distritony! Quiero realizar el siguiente pedido:", ""];
+    const partes = ["PEDIDO DISTRITONY", ""];
 
-    for (const l of lines) {
+    let total = 0;
+    let totalCompleto = true;
+    lines.forEach((l, i) => {
       const nombre = l.producto.nombreCompleto;
       const pres = l.producto.presentacion ? ` — ${l.producto.presentacion}` : "";
-      partes.push(`• ${nombre}${pres} — Cantidad: ${l.cantidad}`);
-    }
+      partes.push(`${i + 1}. ${nombre}${pres}`);
+      partes.push(`   Cantidad: ${l.cantidad}`);
+      if (l.precioUnit != null) {
+        partes.push(`   Precio unitario: ${formatPrecio(l.precioUnit)}`);
+        partes.push(`   Subtotal: ${formatPrecio(l.subtotal)}`);
+        total += l.subtotal;
+      } else {
+        partes.push(`   Precio: a confirmar`);
+        totalCompleto = false;
+      }
+      partes.push("");
+    });
+
+    partes.push("--------------------------------");
+    partes.push(
+      totalCompleto
+        ? `TOTAL ESTIMADO: ${formatPrecio(total)}`
+        : `TOTAL ESTIMADO (parcial, hay precios por confirmar): ${formatPrecio(total)}`
+    );
+    partes.push("");
+    partes.push("Nota: los precios son estimados y pueden variar al momento de confirmar el pedido.");
 
     if (cliente && (cliente.nombre || cliente.notas)) {
       partes.push("");
@@ -194,6 +239,7 @@ const Cart = (function () {
     buildMensaje,
     parsePrecio,
     formatPrecio,
+    showToast,
   };
 })();
 
@@ -213,6 +259,7 @@ function initCartUI() {
   const emptyBtn = document.getElementById("cartEmptyBtn");
   const footerBox = document.getElementById("cartFooterBox");
   const totalBox = document.getElementById("cartTotalBox");
+  const notaBox = document.getElementById("cartNotaPrecio");
   const template = document.getElementById("cartItemTemplate");
   const nombreInput = document.getElementById("cartNombre");
   const notasInput = document.getElementById("cartNotas");
@@ -340,7 +387,13 @@ function initCartUI() {
       nombre: nombreInput.value.trim(),
       notas: notasInput.value.trim(),
     });
-    if (!mensaje) return;
+    if (!mensaje) {
+      // buildMensaje() ya descarta líneas no disponibles; llegar aquí con el
+      // carrito no vacío significa que todo lo que quedaba dejó de poder
+      // comprarse justo ahora.
+      Cart.showToast("Tu pedido ya no tiene productos disponibles para enviar");
+      return;
+    }
     const url = `https://wa.me/${CONFIG.whatsappNumber}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, "_blank", "noopener");
     // El carrito se conserva a propósito: el cliente puede volver del chat de
@@ -364,6 +417,7 @@ function initCartUI() {
     footerBox.hidden = false;
 
     const frag = document.createDocumentFragment();
+    let total = 0;
     for (const line of summary.lines) {
       const node = template.content.cloneNode(true);
       const row = node.querySelector(".cart-item");
@@ -372,12 +426,24 @@ function initCartUI() {
       node.querySelector(".cart-item-pres").textContent = line.producto.presentacion || "";
       node.querySelector(".qty-value").textContent = String(line.cantidad);
       node.querySelector(".qty-minus").disabled = line.cantidad <= 1;
-      node.querySelector(".cart-item-price").hidden = true;
+
+      const priceEl = node.querySelector(".cart-item-price");
+      if (line.precioUnit != null) {
+        const unit = Cart.formatPrecio(line.precioUnit);
+        const sub = Cart.formatPrecio(line.subtotal);
+        priceEl.textContent = line.cantidad > 1 ? `${unit} c/u — Subtotal: ${sub}` : unit;
+        priceEl.hidden = false;
+        total += line.subtotal;
+      } else {
+        priceEl.hidden = true;
+      }
       frag.appendChild(node);
     }
     itemsBox.appendChild(frag);
 
-    totalBox.hidden = true;
+    totalBox.textContent = `TOTAL ESTIMADO: ${Cart.formatPrecio(total)}`;
+    totalBox.hidden = false;
+    notaBox.hidden = false;
   }
 
   Cart.onChange(renderPanel);

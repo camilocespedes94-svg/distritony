@@ -129,6 +129,13 @@ ul, dl, dd, dt{ margin: 0; padding: 0; }
 }
 .btn:active{ transform: translate(2px,2px); }
 .btn[hidden]{ display: none; }
+.btn:disabled{
+  background: var(--crema-alt); color: var(--cacao-soft);
+  box-shadow: none; border-color: var(--borde-fuerte);
+  cursor: not-allowed; transform: none;
+}
+.btn:disabled:hover{ background: var(--crema-alt); transform: none; box-shadow: none; }
+.btn:disabled:active{ transform: none; }
 
 .btn-primary{
   background: var(--cereza); color: #FFF;
@@ -568,6 +575,33 @@ ul, dl, dd, dt{ margin: 0; padding: 0; }
   border: 1.5px solid var(--ambar-dark);
 }
 
+/* Franja "No disponible": ancho completo al pie de la foto, en vez de una
+   esquina. Una bandera en la esquina superior derecha chocaba con el badge
+   de categoría cuando el nombre de la categoría es largo (p. ej. "Chicles
+   y Bonbonbum" ya ocupa el 64% del ancho de la tarjeta); una franja abajo
+   no compite por espacio con nada y de paso queda más visible, que es lo
+   que se pidió. */
+.card-unavailable-badge{
+  position: absolute; left: 0; right: 0; bottom: 0; z-index: 3;
+  font-family: var(--font-body); font-size: 0.72rem; font-weight: 800;
+  padding: 7px 10px; text-align: center;
+  border-top: 2px solid var(--cacao);
+  color: #FFF; background: var(--cereza-dark);
+  text-transform: uppercase; letter-spacing: 0.08em;
+}
+.card-unavailable-badge[hidden]{ display: none; }
+/* Si un producto no disponible ademas tiene foto por confirmar, ese badge
+   sube para no quedar tapado por la franja del pie. */
+.product-card.is-unavailable .card-revisar-badge{ bottom: 38px; }
+/* Foto atenuada y en gris: la tarjeta sigue siendo legible pero se nota de
+   lejos que no es una tarjeta comprable como las demás. */
+.product-card.is-unavailable .card-img{ filter: grayscale(0.85); opacity: 0.55; }
+.product-card.is-unavailable .card-img-placeholder{ opacity: 0.55; }
+.product-card.is-unavailable .card-media::after{
+  content: ""; position: absolute; inset: 0; z-index: 1;
+  background: rgba(46,26,16,0.08);
+}
+
 .card-body{ padding: 15px 16px 8px; flex: 1; display: flex; flex-direction: column; gap: 5px; }
 .card-brand{
   font-size: 0.63rem; font-weight: 700; text-transform: uppercase;
@@ -775,8 +809,13 @@ body.cart-open-lock{ overflow: hidden; }
 }
 .cart-total{
   font-family: var(--font-title); font-weight: 900; font-size: 1.08rem;
-  color: var(--cacao); margin: 0 0 14px; text-align: center;
+  color: var(--cacao); margin: 0 0 4px; text-align: center;
 }
+.cart-nota-precio{
+  font-size: 0.72rem; color: var(--cacao-soft); text-align: center;
+  margin: 0 0 14px; line-height: 1.4;
+}
+.cart-nota-precio[hidden]{ display: none; }
 
 .cart-cliente{ display: flex; flex-direction: column; gap: 4px; margin-bottom: 14px; }
 .cart-cliente label{

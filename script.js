@@ -309,11 +309,25 @@ function renderCard(p) {
     card.querySelector(".card-media").appendChild(revisar);
   }
 
+  const noDisponible = p.disponibilidad === "no_disponible";
+  card.classList.toggle("is-unavailable", noDisponible);
+  node.querySelector(".card-unavailable-badge").hidden = !noDisponible;
+
   node.querySelector(".card-brand").textContent = p.marca || "";
   node.querySelector(".card-title").textContent = p.nombreCompleto || p.producto || "";
   node.querySelector(".card-desc").textContent = p.descripcion || "";
 
-  node.querySelector(".card-price").hidden = true;
+  // Precio numérico (para el carrito) vs. precio formateado (para mostrar):
+  // Cart.formatPrecio() es la única función que decide cómo se ve un precio
+  // en pantalla, para que el catálogo y el carrito nunca queden distintos.
+  const priceEl = node.querySelector(".card-price");
+  const precioNum = typeof Cart !== "undefined" ? Cart.parsePrecio(p.precio) : null;
+  if (precioNum != null) {
+    priceEl.textContent = Cart.formatPrecio(precioNum);
+    priceEl.hidden = false;
+  } else {
+    priceEl.hidden = true;
+  }
 
   const specs = node.querySelector(".card-specs");
   const specItems = [];
@@ -323,6 +337,10 @@ function renderCard(p) {
   specs.innerHTML = specItems.map((s) => `<span class="spec">${escapeHtml(s)}</span>`).join("");
 
   card.dataset.id = p.id;
+  // No disponible: se guarda en la tarjeta (no solo en `p`) para que
+  // applyCardState() pueda leerlo también cuando la llama syncAllCardStates(),
+  // que solo tiene el nodo del DOM, no el producto original.
+  card.dataset.disponible = noDisponible ? "no" : "si";
 
   // La tarjeta y el carrito comparten la misma fuente de verdad (Cart.getQty):
   // agregar/± aquí llama directo al carrito, y applyCardState() es la única
@@ -333,6 +351,7 @@ function renderCard(p) {
   const qtyPlus = node.querySelector(".qty-plus");
 
   orderBtn.addEventListener("click", () => {
+    if (card.dataset.disponible === "no") return; // por si el disabled se pudo evadir
     Cart.add(p.id);
     flashJustAdded(card);
   });
@@ -347,12 +366,22 @@ function renderCard(p) {
   return node;
 }
 
-// Dibuja el estado "fuera del pedido" (botón rojo) vs "en el pedido" (✓ + stepper)
-// de una tarjeta ya insertada en el DOM. Única función que decide esta UI.
+// Dibuja el estado "fuera del pedido" (botón rojo), "en el pedido" (✓ + stepper)
+// o "no disponible" (botón deshabilitado) de una tarjeta ya insertada en el
+// DOM. Única función que decide esta UI.
 function applyCardState(card, qty) {
   const addBtn = card.querySelector(".card-order-btn");
   const inCart = card.querySelector(".card-in-cart");
   if (!addBtn || !inCart) return;
+
+  if (card.dataset.disponible === "no") {
+    addBtn.hidden = false;
+    addBtn.disabled = true;
+    addBtn.querySelector(".card-order-label").textContent = "No disponible";
+    inCart.hidden = true;
+    return;
+  }
+
   const enPedido = qty > 0;
   addBtn.hidden = enPedido;
   inCart.hidden = !enPedido;

@@ -5,8 +5,10 @@ Casanare. El cliente navega el portafolio, arma su pedido y lo envía por WhatsA
 
 **Sitio publicado:** https://camilocespedes94-svg.github.io/distritony/
 
-No es una tienda en línea: no cobra, no procesa pagos y **no muestra precios**. El pedido
-llega como un mensaje de WhatsApp que el negocio cotiza y confirma.
+No es una tienda en línea: no cobra ni procesa pagos, aunque desde el 2026-08-21 sí **muestra
+precios de venta** en el catálogo, el carrito y el mensaje de WhatsApp — siempre marcados como
+estimados. El pedido llega como un mensaje de WhatsApp que el negocio confirma y, si algo
+cambió, ajusta.
 
 ---
 
@@ -23,7 +25,8 @@ distritony/
 ├── cart.js                 Carrito y mensaje de WhatsApp
 ├── manifest.webmanifest    Permite instalarlo como app en el móvil
 ├── data/
-│   └── productos.json      ← LA BASE DE DATOS. Todo sale de aquí.
+│   ├── productos.json      ← LA BASE DE DATOS. Todo sale de aquí.
+│   └── esquema.md          Qué significa cada campo, cuál es obligatorio, cuál es público
 ├── images/
 │   ├── productos/          184 fotos de producto
 │   └── marcas/             9 logos del muro de marcas
@@ -72,8 +75,11 @@ Editar `data/productos.json`. Cada producto es un bloque como este:
   "nombreCompleto": "Trolli Tortu X100",
   "presentacion": null,
   "descripcion": "Gomitas Trolli en forma de tortuga, bolsa por 100 unidades.",
+  "sku": "7702011000606",
+  "precio": 9500,
+  "disponibilidad": "disponible",
   "imagen": "images/productos/trolli-tortu-x100.jpg",
-  "imagenEstado": "ok"
+  "imagenEstado": "verificada"
 }
 ```
 
@@ -82,7 +88,32 @@ Editar `data/productos.json`. Cada producto es un bloque como este:
   existe: los clientes que lo tengan en su carrito lo perderían.
 - **`imagen`** es la ruta relativa al archivo. Si no hay foto, poner `null` y la tarjeta
   muestra el marcador "Imagen próximamente".
-- **Nunca agregues un campo `precio`.** Este catálogo es público.
+- **`precio`** es un número (sin puntos, comas ni símbolo de moneda) y es obligatorio: el
+  catálogo, el carrito y el mensaje de WhatsApp lo usan para calcular subtotales y el total.
+  Es el precio de venta real, no el de costo.
+- El detalle completo de cada campo — cuál es obligatorio, cuál es público, cuál nunca cambia
+  — está en [`data/esquema.md`](data/esquema.md).
+
+### Vigente y disponibilidad — no son lo mismo
+
+Dos formas distintas de "sacar" un producto, para dos situaciones distintas:
+
+| Quiero que el producto... | Qué hacer | Qué ve el cliente |
+|---|---|---|
+| **Deje de existir** en el catálogo (se descontinuó, ya no se distribuye) | Bórralo de `productos.json`, o quítalo en el siguiente ciclo de generación desde el Excel maestro | Desaparece por completo |
+| **Se agote temporalmente**, pero siga siendo un producto real | Cambia su campo `"disponibilidad"` de `"disponible"` a `"no_disponible"` | Sigue viendo la tarjeta, con su foto y su precio, pero con una franja roja **"No disponible"** y sin poder agregarlo al pedido |
+| **Vuelva a estar en venta** | Cambia `"disponibilidad"` de vuelta a `"disponible"` | Vuelve a comprarse normalmente |
+
+No confundas los dos casos: borrar del JSON es para lo que ya no se vende nunca más; cambiar
+`disponibilidad` es para lo que hoy no hay en bodega pero se va a reponer. Si un cliente ya
+tenía ese producto en su carrito cuando se marca `no_disponible`, el carrito lo detecta solo,
+lo retira y le avisa — no puede llegar a enviarse en un pedido por WhatsApp.
+
+### Cambiar un precio
+
+Editar el campo `"precio"` del producto en `productos.json` (número entero, sin formato). El
+catálogo, el carrito y el mensaje de WhatsApp siempre calculan a partir de ese número — nunca
+hay que tocar nada más.
 
 ### Agregar una imagen
 
@@ -154,10 +185,12 @@ git push
 Y una regla que no admite excepción:
 
 > **Nunca subas a este repositorio la carpeta de trabajo `Distritony-Catalogo`.**
-> Contiene los precios y `pdvdata.fdb`, la base de datos del punto de venta. El repositorio
-> es público y **git conserva el historial**: borrar un archivo después no lo elimina de
-> verdad. El `.gitignore` bloquea los patrones más peligrosos, pero la protección real es no
-> mezclar las carpetas.
+> Contiene `pdvdata.fdb` — la base de datos completa del punto de venta — y el Excel maestro
+> con columnas internas (costos, proveedores, inventario) que van mucho más allá de lo que el
+> catálogo necesita publicar. El precio de venta sí es público desde el 2026-08-21, pero eso
+> no cambia esta regla: el repositorio es público y **git conserva el historial** — borrar un
+> archivo después no lo elimina de verdad. El `.gitignore` bloquea los patrones más
+> peligrosos, pero la protección real es no mezclar las carpetas.
 
 ---
 
