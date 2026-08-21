@@ -1,6 +1,6 @@
 {
     "meta":  {
-                 "fuente":  "Catalogo SKU Distritony 16-08-2026.xlsx",
+                 "fuente":  "Catálogo SKU Distritony 16-08-2026.xlsx",
                  "ultima_actualizacion":  "2026-08-20",
                  "total_productos":  206,
                  "total_vigente_no":  568,
@@ -47,6 +47,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle en barra sabor súper hiper ácido, display por 15 unidades.",
+                          "sku":  "7703888295478",
                           "imagen":  "images/productos/acido-metro-x15.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -61,6 +62,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Confite de chocolate sabor almendra, bolsa de 27 g.",
+                          "sku":  "7702117011964",
                           "imagen":  "images/productos/almendra-27g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -75,6 +77,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Confite de chocolate sabor almendra, bolsa de 50 g.",
+                          "sku":  "7702117008216",
                           "imagen":  "images/productos/almendra-50g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -89,6 +92,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Confite de chocolate sabor almendra, tarro por 100 unidades.",
+                          "sku":  "5",
                           "imagen":  "images/productos/almendra-tarro-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -103,6 +107,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro importado de Turquía, bolsa por 200 unidades.",
+                          "sku":  "8684220140207",
                           "imagen":  "images/productos/alpines-x200.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -117,6 +122,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo masticable importado de Turquía.",
+                          "sku":  "8699096734870",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -131,6 +137,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulces masticables de fruta en forma de aro, bolsa por 100 unidades.",
+                          "sku":  "7702174909471",
                           "imagen":  "images/productos/aros-fruna-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -145,6 +152,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro tipo átomo de colores surtidos, display por 48 unidades.",
+                          "sku":  "7702993050194",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -159,6 +167,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Barquillo Piazza de Colombina, bolsa por 40 paqueticos de 44 g. Relleno crujiente en sabores surtidos.",
+                          "sku":  "BARQUILLO X40",
                           "imagen":  "images/productos/barquillo-x40.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -173,6 +182,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Barrilete con revoltillo de sabores ácidos, display por 40 unidades.",
+                          "sku":  "7702993059715",
                           "imagen":  "images/productos/barrilete-revolcon-x40.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -187,7 +197,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce tradicional de frutas tipo barrilete, display por 50 unidades.",
+                          "sku":  "7702993602508",
                           "imagen":  "images/productos/barrilete-x50.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "bbb-tajin-x12",
+                          "categoria":  "Chicles y Bonbonbum",
+                          "marca":  "Colombina",
+                          "producto":  "Bonbonbum Tajín X12",
+                          "variante":  null,
+                          "nombreCompleto":  "Bonbonbum Tajín X12",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Bon Bon Bum con polvo Tajín picante-ácido, display por 12 unidades.",
+                          "sku":  "7702011165596",
+                          "imagen":  "images/productos/bbb-tajin-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -201,6 +227,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bombón de coco Supercoco, bolsa por 24 unidades.",
+                          "sku":  "7702993031957",
                           "imagen":  "images/productos/bb-coco-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -215,21 +242,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bombón Bon Bon Bum con chicle sabor fresa, bolsa por 24 unidades.",
+                          "sku":  "7702011161505",
                           "imagen":  "images/productos/bb-x24-fresa.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
-                          "id":  "bb-x24-surtido",
+                          "id":  "bb-x24-lulo",
                           "categoria":  "Chicles y Bonbonbum",
                           "marca":  "Colombina",
-                          "producto":  "Bonbonbum X24 Surtido",
+                          "producto":  "Bonbonbum X24 Lulo",
                           "variante":  null,
-                          "nombreCompleto":  "Bonbonbum X24 Surtido",
+                          "nombreCompleto":  "Bonbonbum X24 Lulo",
                           "presentacion":  null,
                           "unidades":  null,
                           "peso":  null,
-                          "descripcion":  "Bombón Bon Bon Bum con chicle en sabores surtidos, bolsa por 24 unidades.",
-                          "imagen":  "images/productos/bb-x24-surtido.jpg",
+                          "descripcion":  "Bombón Bon Bon Bum con chicle sabor lulo, bolsa por 24 unidades.",
+                          "sku":  "7702011147677",
+                          "imagen":  "images/productos/bb-x24-lulo.png",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -243,6 +272,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bombón Bon Bon Bum con chicle sabor maracuyá, bolsa por 24 unidades.",
+                          "sku":  "7702011151575",
                           "imagen":  "images/productos/bb-x24-maracuya.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -257,35 +287,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bombón Bon Bon Bum con chicle sabor sandía, bolsa por 24 unidades.",
+                          "sku":  "7702011281180",
                           "imagen":  "images/productos/bb-x24-sandia.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
-                          "id":  "bb-x24-lulo",
+                          "id":  "bb-x24-surtido",
                           "categoria":  "Chicles y Bonbonbum",
                           "marca":  "Colombina",
-                          "producto":  "Bonbonbum X24 Lulo",
+                          "producto":  "Bonbonbum X24 Surtido",
                           "variante":  null,
-                          "nombreCompleto":  "Bonbonbum X24 Lulo",
+                          "nombreCompleto":  "Bonbonbum X24 Surtido",
                           "presentacion":  null,
                           "unidades":  null,
                           "peso":  null,
-                          "descripcion":  "Bombón Bon Bon Bum con chicle sabor lulo, bolsa por 24 unidades.",
-                          "imagen":  "images/productos/bb-x24-lulo.png",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "bbb-tajin-x12",
-                          "categoria":  "Chicles y Bonbonbum",
-                          "marca":  "Colombina",
-                          "producto":  "Bonbonbum Tajín X12",
-                          "variante":  null,
-                          "nombreCompleto":  "Bonbonbum Tajín X12",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Bon Bon Bum con polvo Tajín picante-ácido, display por 12 unidades.",
-                          "imagen":  "images/productos/bbb-tajin-x12.jpg",
+                          "descripcion":  "Bombón Bon Bon Bum con chicle en sabores surtidos, bolsa por 24 unidades.",
+                          "sku":  "7702011242570",
+                          "imagen":  "images/productos/bb-x24-surtido.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -299,6 +317,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Barra de chocolate Bianchi, display por 12 unidades.",
+                          "sku":  "7702993047934",
                           "imagen":  "images/productos/bianchi-barra-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -313,6 +332,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Barra de chocolate Bianchi, display por 18 unidades.",
+                          "sku":  "7702993054888",
                           "imagen":  "images/productos/bianchi-barra-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -327,6 +347,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini barras de chocolate Bianchi, display por 18 unidades.",
+                          "sku":  "7702993054871",
                           "imagen":  "images/productos/bianchi-mini-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -341,6 +362,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini chocolatinas Bianchi, bolsa por 100 unidades.",
+                          "sku":  "7702993058855",
                           "imagen":  "images/productos/bianchi-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -355,6 +377,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle de bola Big Bem, bolsa por 100 unidades.",
+                          "sku":  "7702993012994",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -369,6 +392,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta de caramelo rellena de chicle sabor canela, bolsa por 120 unidades.",
+                          "sku":  "7707014960810",
                           "imagen":  "images/productos/big-bom-canela-x120.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -383,6 +407,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta de caramelo rellena de chicle, bolsa por 48 unidades.",
+                          "sku":  "7707014903343",
                           "imagen":  "images/productos/big-bom-x48.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -397,6 +422,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta de caramelo rellena de chicle tamaño XL, bolsa por 48 unidades.",
+                          "sku":  "7707014984298",
                           "imagen":  "images/productos/big-bom-xl-x48.png",
                           "imagenEstado":  "verificada"
                       },
@@ -411,6 +437,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta de caramelo rellena de chicle tamaño XXL, bolsa por 48 unidades.",
+                          "sku":  "7707014902704",
                           "imagen":  "images/productos/big-bom-xxl-x48.png",
                           "imagenEstado":  "verificada"
                       },
@@ -425,6 +452,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle bola surtido Agogo, bolsa por 60 unidades.",
+                          "sku":  "7707298441722",
                           "imagen":  "images/productos/bola-chicle-x60.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -439,6 +467,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle bola sabor picante Agogo, bolsa por 80 unidades.",
+                          "sku":  "7707928443188",
                           "imagen":  "images/productos/bola-picante-x80.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -453,6 +482,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle de bola grande Agogo Boloncho, display por 30 unidades.",
+                          "sku":  "7707928443218",
                           "imagen":  "images/productos/boloncho-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -467,6 +497,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo Bombazo de sabores intensos, display por 50 unidades.",
+                          "sku":  "7702993018606",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -481,6 +512,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bombones surtidos, bolsa por 80 unidades.",
+                          "sku":  "7707014902162",
                           "imagen":  "images/productos/bombonera-x80.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -495,6 +527,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer de vainilla con cobertura de chocolate Bridge, display por 10 unidades.",
+                          "sku":  "7702011271440",
                           "imagen":  "images/productos/bridge-wafer-x10.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -509,6 +542,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galleta tipo wafer con crema de chocolate Brinky, display por 10 unidades.",
+                          "sku":  "7702011203649",
                           "imagen":  "images/productos/brinky-x10.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -523,6 +557,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle de bola Bubbaloo relleno de líquido frutal, bolsa por 47 unidades.",
+                          "sku":  "7622202222023",
                           "imagen":  "images/productos/bubaloo-x47.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -537,6 +572,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo surtido de colores y sabores, display por 30 unidades.",
+                          "sku":  "7707298440930",
                           "imagen":  "images/productos/candy-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -551,6 +587,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce en forma de cangrejo, por 10 unidades.",
+                          "sku":  "CANGREJOS X10",
                           "imagen":  "images/productos/cangrejos-x10.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -565,6 +602,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de frutas Capri, bolsa por 24 unidades.",
+                          "sku":  "7702011200914",
                           "imagen":  "images/productos/capri-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -579,6 +617,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro de frutas surtidos, bolsa por 100 unidades.",
+                          "sku":  "7702011016836",
                           "imagen":  "images/productos/caramelo-durox100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -593,6 +632,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de chocolate tipo Nucita, bolsa surtida.",
+                          "sku":  "7702011125835",
                           "imagen":  "images/productos/caramelo-nucita.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -607,6 +647,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Cepillos de dientes, display por 30 unidades.",
+                          "sku":  "6939343200089",
                           "imagen":  "images/productos/cepillos-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -621,6 +662,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de chamoy picante-agridulce de estilo mexicano, display por 40 unidades.",
+                          "sku":  "878631003314",
                           "imagen":  "images/productos/chamoy-x40.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -635,6 +677,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Polvo dulce efervescente Chao Frush, display por 12 unidades.",
+                          "sku":  "7702993057445",
                           "imagen":  "images/productos/chao-frush-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -649,6 +692,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Chao en línea de sabores surtidos, display por 24 unidades.",
+                          "sku":  "7702993031049",
                           "imagen":  "images/productos/chao-linea-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -663,6 +707,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Chao en tubo, display por 12 unidades.",
+                          "sku":  "7702993055618",
                           "imagen":  "images/productos/chao-tubo-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -677,6 +722,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Chao tradicional, bolsa por 100 unidades.",
+                          "sku":  "7702993051054",
                           "imagen":  "images/productos/chao-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -691,6 +737,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle de bola con tatuaje comestible, bolsa por 100 unidades.",
+                          "sku":  "6935264540099",
                           "imagen":  "images/productos/chicle-tatoo-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -705,6 +752,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle en pastillas Chiclets, bolsa por 100 unidades.",
+                          "sku":  "7622202231513",
                           "imagen":  "images/productos/chiclets-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -719,7 +767,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Snack de malvavisco bañado en chocolate.",
+                          "sku":  "7702011162519",
                           "imagen":  "images/productos/choc-melos-snack.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "chocobombones-x30",
+                          "categoria":  "Chocolates",
+                          "marca":  "Super",
+                          "producto":  "Chocobombones X30",
+                          "variante":  null,
+                          "nombreCompleto":  "Chocobombones X30",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Bombones de chocolate, display por 30 unidades.",
+                          "sku":  "7702993040676",
+                          "imagen":  "images/productos/chocobombones-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -733,6 +797,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Disco de chocolate con maní, display por 12 unidades.",
+                          "sku":  "7702011152312",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -747,6 +812,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Disco de chocolate, display por 18 unidades.",
+                          "sku":  "7702011052513",
                           "imagen":  "images/productos/choco-disk-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -761,6 +827,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Snack de chocolate importado, bolsa por 25 unidades.",
+                          "sku":  "4897054140501",
                           "imagen":  "images/productos/choco-happy-x25.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -775,7 +842,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Snack de chocolate importado, bolsa por 50 unidades.",
+                          "sku":  "4897054140389",
                           "imagen":  "images/productos/choco-happy-x50.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "chocolores-x12",
+                          "categoria":  "Chocolates",
+                          "marca":  "Super",
+                          "producto":  "Chocolores X12",
+                          "variante":  null,
+                          "nombreCompleto":  "Chocolores X12",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Chocolatinas Chocolores de colores surtidos, display por 12 unidades.",
+                          "sku":  "7702993052990",
+                          "imagen":  "images/productos/chocolores-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -789,6 +872,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolate importado tipo estrella.",
+                          "sku":  "8697431142021",
                           "imagen":  "images/productos/choco-star.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -803,35 +887,8 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer cubierto de chocolate, bolsa por 100 unidades.",
+                          "sku":  "8699462606534",
                           "imagen":  "images/productos/choco-wafer-x100.jpg",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "chocobombones-x30",
-                          "categoria":  "Chocolates",
-                          "marca":  "Super",
-                          "producto":  "Chocobombones X30",
-                          "variante":  null,
-                          "nombreCompleto":  "Chocobombones X30",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Bombones de chocolate, display por 30 unidades.",
-                          "imagen":  "images/productos/chocobombones-x30.jpg",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "chocolores-x12",
-                          "categoria":  "Chocolates",
-                          "marca":  "Super",
-                          "producto":  "Chocolores X12",
-                          "variante":  null,
-                          "nombreCompleto":  "Chocolores X12",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Chocolatinas Chocolores de colores surtidos, display por 12 unidades.",
-                          "imagen":  "images/productos/chocolores-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -845,6 +902,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chupete ácido intenso, display por 24 unidades.",
+                          "sku":  "7758102006088",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -859,6 +917,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chupete luminoso de colores, display por 24 unidades.",
+                          "sku":  "603554049183",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -873,6 +932,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Snack tipo churro con azúcar y canela, bolsa por 42 unidades.",
+                          "sku":  "CHURROS X42",
                           "imagen":  "images/productos/churros-x42.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -887,6 +947,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulces en tira de colores surtidos, bolsa por 96 unidades.",
+                          "sku":  "8410525195501",
                           "imagen":  "images/productos/cintasx-96.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -901,6 +962,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas de soda Club Social, paquete individual.",
+                          "sku":  "7590011105106",
                           "imagen":  "images/productos/club-social.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -915,6 +977,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas de soda Club Social integral, paquete individual.",
+                          "sku":  "7622210854209",
                           "imagen":  "images/productos/club-social-int.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -929,6 +992,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Cocadas de coco artesanales, display por 30 unidades.",
+                          "sku":  "COCADAS X30",
                           "imagen":  "images/productos/cocadas-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -943,6 +1007,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro sabor café, bolsa por 100 unidades.",
+                          "sku":  "7702011001771",
                           "imagen":  "images/productos/coffe-duro-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -957,6 +1022,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulces en forma de corazón, display por 5 unidades.",
+                          "sku":  "6988835800368",
                           "imagen":  "images/productos/corazon-x5.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -971,6 +1037,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomita Trululu en forma de dona, bolsa por 24 unidades.",
+                          "sku":  "7702993057186",
                           "imagen":  "images/productos/trululu-aros.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -985,6 +1052,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Ducales de soda, multipack por 6 paquetes.",
+                          "sku":  "7702025150922",
                           "imagen":  "images/productos/ducales-x6-600g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -999,6 +1067,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce en presentación tipo esfero, display por 30 unidades.",
+                          "sku":  "6920484018572",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1013,6 +1082,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Pismaniye (algodón de azúcar tipo halva de hilo) importado de Turquía, display por 24 unidades.",
+                          "sku":  "8690562416603",
                           "imagen":  "images/productos/efsane-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1027,22 +1097,9 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce importado Feliciti, bolsa por 80 unidades.",
+                          "sku":  "6970430212387",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
-                      },
-                      {
-                          "id":  "festival-x6-vainilla",
-                          "categoria":  "Galletería",
-                          "marca":  "Noel",
-                          "producto":  "Festival X6 Vainilla",
-                          "variante":  null,
-                          "nombreCompleto":  "Festival X6 Vainilla",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Galletas Festival rellenas de crema de vainilla, empaque de 6 paquetes.",
-                          "imagen":  "images/productos/festival-x6-vainilla.jpg",
-                          "imagenEstado":  "verificada"
                       },
                       {
                           "id":  "festival-x6-chocolate",
@@ -1055,7 +1112,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Festival rellenas de crema de chocolate, empaque de 6 paquetes.",
+                          "sku":  "7702025142026",
                           "imagen":  "images/productos/festival-x6-chocolate.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "festival-x6-vainilla",
+                          "categoria":  "Galletería",
+                          "marca":  "Noel",
+                          "producto":  "Festival X6 Vainilla",
+                          "variante":  null,
+                          "nombreCompleto":  "Festival X6 Vainilla",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Galletas Festival rellenas de crema de vainilla, empaque de 6 paquetes.",
+                          "sku":  "7702025182176",
+                          "imagen":  "images/productos/festival-x6-vainilla.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -1069,6 +1142,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Festival rellenas surtidas en sabores, empaque de 8 paquetes.",
+                          "sku":  "7702025151974",
                           "imagen":  "images/productos/festival-x8-surtida.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1083,6 +1157,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas o caramelos en sabor fresa, bolsa por 65 unidades.",
+                          "sku":  "7709939734057",
                           "imagen":  "images/productos/fresones-x65.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1097,6 +1172,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro de frutas tropicales surtidos, bolsa por 100 unidades.",
+                          "sku":  "7702011001726",
                           "imagen":  "images/productos/fruticas-x100.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1111,6 +1187,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas tipo domo, bolsa por 20 unidades.",
+                          "sku":  "GALLETA DOMO X20",
                           "imagen":  "images/productos/galleta-domo-x20.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1125,6 +1202,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas rizadas de vainilla, bolsa por 70 unidades.",
+                          "sku":  "7709593959421",
                           "imagen":  "images/productos/galleta-rizada-x70.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1139,6 +1217,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas surtidas, bolsa por 120 unidades.",
+                          "sku":  "9",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1153,6 +1232,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gelé dulce para niños, display por 20 unidades.",
+                          "sku":  "7709854876573",
                           "imagen":  "images/productos/gela-kids-x20.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1167,6 +1247,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gelé dulce de juguete, display por 30 unidades.",
+                          "sku":  "7709168609263",
                           "imagen":  "images/productos/gela-playx30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1181,6 +1262,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gelé dulce en presentación especial, bolsa por 28 unidades.",
+                          "sku":  "7708349459710",
                           "imagen":  "images/productos/gelatina-pata-x28.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1195,6 +1277,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle de bola Agogo (Globoom) en presentación por 60 unidades.",
+                          "sku":  "7703888298493",
                           "imagen":  "images/productos/globoom-x60.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1209,6 +1292,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Gol de chocolate con leche, unidad individual.",
+                          "sku":  "7702007089721",
                           "imagen":  "images/productos/gol.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1223,6 +1307,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Gol de chocolate con leche, display por 24 unidades.",
+                          "sku":  "7702007080605",
                           "imagen":  "images/productos/gol-x24.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1237,6 +1322,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini gomitas Chao, display por 24 unidades.",
+                          "sku":  "7702993059494",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1251,6 +1337,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomita de sabor picante, bolsa de 80 g.",
+                          "sku":  "6903788000399",
                           "imagen":  "images/productos/goma-picante-80g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1265,6 +1352,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Grisly en forma de boa, bolsa por 25 unidades.",
+                          "sku":  "7702011164704",
                           "imagen":  "images/productos/grisly-boa-x25.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1279,6 +1367,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Grisly clásicas surtidas en sabores, bolsa por 100 unidades.",
+                          "sku":  "7702011127983",
                           "imagen":  "images/productos/grisly-clasica-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1293,6 +1382,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bola de goma surtida, bolsa por 50 unidades.",
+                          "sku":  "6988835800580",
                           "imagen":  "images/productos/gummy-ball-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1307,6 +1397,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas surtidas, bolsa por 30 unidades.",
+                          "sku":  "7708527098342",
                           "imagen":  "images/productos/gummy-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1321,6 +1412,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Pastillas mentoladas Halls en barra, display por 12 unidades.",
+                          "sku":  "7622210426963",
                           "imagen":  "images/productos/halls-barra-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1335,6 +1427,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Pastillas mentoladas Halls, bolsa por 100 unidades.",
+                          "sku":  "7702133445101",
                           "imagen":  "images/productos/halls-pepa-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1349,6 +1442,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle líquido de sabor ácido intenso Super Hiper Ácido, bolsa por 100 unidades.",
+                          "sku":  "7703888589270",
                           "imagen":  "images/productos/hiper-acido-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1363,6 +1457,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer con relleno de crema, display por 12 unidades.",
+                          "sku":  "7702117002641",
                           "imagen":  "images/productos/hiper-wafer-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1377,6 +1472,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer con relleno de crema, display por 8 unidades.",
+                          "sku":  "7702117001941",
                           "imagen":  "images/productos/hiper-wafer-x8.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1391,6 +1487,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Hojaldrinas de panela en forma de corazón, bolsa por 42 unidades.",
+                          "sku":  "7707351740373",
                           "imagen":  "images/productos/hojaldra-corazon-x42.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1405,6 +1502,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Hojaldrinas en forma de flauta, bolsa por 15 unidades.",
+                          "sku":  "HOJALDRA FLAUA X15",
                           "imagen":  "images/productos/hojaldra-flauta-x15.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1419,6 +1517,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Hojaldrinas tradicionales de panela, bolsa por 40 unidades.",
+                          "sku":  "7707292530705",
                           "imagen":  "images/productos/hojaldra-x40.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1433,6 +1532,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo Huellitas individual.",
+                          "sku":  "7702011155252",
                           "imagen":  "images/productos/huellitas.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1447,6 +1547,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo Huellitas, display por 10 unidades.",
+                          "sku":  "692051052574",
                           "imagen":  "images/productos/huellitas-x10.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1461,6 +1562,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Huevo de chocolate duro, display por 10 unidades.",
+                          "sku":  "7702117003259",
                           "imagen":  "images/productos/huevo-duro-x10.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1475,6 +1577,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de gelatina en forma de huevo frito, display por 12 unidades.",
+                          "sku":  "6920484018336",
                           "imagen":  "images/productos/huevo-fritox12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1489,6 +1592,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gelatina dulce de frutas, bolsa por 20 unidades.",
+                          "sku":  "7709990452655",
                           "imagen":  "images/productos/jelly-x20.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1503,6 +1607,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Jet de chocolate con leche, display por 12 unidades.",
+                          "sku":  "7702007080735",
                           "imagen":  "images/productos/jet-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1517,6 +1622,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Jet de chocolate con leche, display por 24 unidades.",
+                          "sku":  "7702007080506",
                           "imagen":  "images/productos/jet-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1531,6 +1637,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Jet de chocolate con leche, display por 50 unidades.",
+                          "sku":  "7702007080483",
                           "imagen":  "images/productos/jet-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1545,6 +1652,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Barra de chocolate con maní Jumbo, display por 12 unidades.",
+                          "sku":  "7702007080377",
                           "imagen":  "images/productos/jumbo-mani-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1559,6 +1667,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini barra de chocolate Jumbo, display por 24 unidades.",
+                          "sku":  "7702007080346",
                           "imagen":  "images/productos/jumbo-mini-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1573,6 +1682,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro con centro de chicle King Ball, bolsa por 100 unidades.",
+                          "sku":  "7707014955724",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1587,6 +1697,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo tipo goma en forma de labios, bolsa por 40 unidades.",
+                          "sku":  "7503018214023",
                           "imagen":  "images/productos/labios-rojos-x40.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1601,6 +1712,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce ácido Lokiño, bolsa por 100 unidades.",
+                          "sku":  "7702993030073",
                           "imagen":  "images/productos/lokino-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1615,21 +1727,8 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de mango con sal, display por 48 unidades.",
+                          "sku":  "7702174085304",
                           "imagen":  "images/productos/mango-sal-x48.jpg",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "mani-dulce-x20",
-                          "categoria":  "Confitería",
-                          "marca":  "OTROS",
-                          "producto":  "Mani Dulce X20",
-                          "variante":  null,
-                          "nombreCompleto":  "Mani Dulce X20",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Maní con cobertura dulce, bolsa por 20 unidades.",
-                          "imagen":  "images/productos/mani-dulce-x20.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -1643,7 +1742,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Maní con cobertura de chocolate Manicero, display por 24 unidades.",
+                          "sku":  "7702007082982",
                           "imagen":  "images/productos/manicero-x24.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "mani-dulce-x20",
+                          "categoria":  "Confitería",
+                          "marca":  "OTROS",
+                          "producto":  "Mani Dulce X20",
+                          "variante":  null,
+                          "nombreCompleto":  "Mani Dulce X20",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Maní con cobertura dulce, bolsa por 20 unidades.",
+                          "sku":  "7701360342009",
+                          "imagen":  "images/productos/mani-dulce-x20.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -1657,6 +1772,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Malvaviscos de colores y sabores, bolsa por 60 unidades.",
+                          "sku":  "7371869402940",
                           "imagen":  "images/productos/masmelocos-x60.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1671,6 +1787,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de coco Max Coco, bolsa por 100 unidades.",
+                          "sku":  "7702011151896",
                           "imagen":  "images/productos/max-coco-caram-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1685,6 +1802,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de coco Max Coco, display por 10 unidades.",
+                          "sku":  "7702011046949",
                           "imagen":  "images/productos/maxcocox10.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1699,6 +1817,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta refrescante Menta Helada, bolsa por 100 unidades.",
+                          "sku":  "7702011001481",
                           "imagen":  "images/productos/menta-helada-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1713,6 +1832,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta en sabores surtidos, bolsa por 100 unidades.",
+                          "sku":  "7702011129369",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1727,6 +1847,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Malvavisco Millows surtido, bolsa por 50 unidades.",
+                          "sku":  "7702011155696",
                           "imagen":  "images/productos/millows-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1741,6 +1862,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini aros de Frunas masticables surtidos, tarro de 200 unidades.",
+                          "sku":  "7702174932394",
                           "imagen":  "images/productos/mini-aro-frunas-x200.png",
                           "imagenEstado":  "verificada"
                       },
@@ -1755,6 +1877,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini Bon Bon Bum surtidos, bolsa por 100 unidades.",
+                          "sku":  "7702011160775",
                           "imagen":  "images/productos/mini-bum-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1769,6 +1892,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomita con forma de mini hamburguesa, display por 30 unidades.",
+                          "sku":  "813805005015",
                           "imagen":  "images/productos/mini-burguer-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1783,6 +1907,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini chicles surtidos.",
+                          "sku":  "7707298440459",
                           "imagen":  "images/productos/mini-chicle.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1797,6 +1922,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas MiniChips con chips de chocolate, empaque de 12 unidades.",
+                          "sku":  "7702025146178",
                           "imagen":  "images/productos/minichips-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1811,6 +1937,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas MiniChips con chips de chocolate, empaque de 8 unidades.",
+                          "sku":  "7702025142903",
                           "imagen":  "images/productos/minichips-x8.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1825,6 +1952,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo refrescante de menta Mist, bolsa por 100 unidades.",
+                          "sku":  "7702174061414",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1839,6 +1967,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Mont Blanc con cobertura de fresa.",
+                          "sku":  "7702007056471",
                           "imagen":  "images/productos/mont-blanc-fresa.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1853,6 +1982,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo relleno sabor mora, bolsa por 100 unidades.",
+                          "sku":  "7702011050007",
                           "imagen":  "images/productos/mora-rellena-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1867,6 +1997,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de mora en tarro por 100 unidades.",
+                          "sku":  "4",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1881,6 +2012,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina de leche Muu, display por 18 unidades.",
+                          "sku":  "7702011070371",
                           "imagen":  "images/productos/muu-leche-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1895,6 +2027,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina Muu con crema, display por 12 unidades.",
+                          "sku":  "7702011062024",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -1909,6 +2042,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chocolatina de leche Noel, display por 21 unidades.",
+                          "sku":  "7702025118311",
                           "imagen":  "images/productos/noel-leche-x21.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1923,6 +2057,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer bañado en chocolate Noel, display por 18 unidades.",
+                          "sku":  "7702025186440",
                           "imagen":  "images/productos/noel-wafer-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1937,6 +2072,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galleta tipo wafer con crema de chocolate Nucita, por 8 unidades.",
+                          "sku":  "7702011027511",
                           "imagen":  "images/productos/nucita-galleta-x8.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1951,6 +2087,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Nucita de chocolate con leche, display por 18 unidades.",
+                          "sku":  "7702011021915",
                           "imagen":  "images/productos/nucita-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1965,6 +2102,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Nucita de chocolate con leche, display por 8 unidades.",
+                          "sku":  "7702011005397",
                           "imagen":  "images/productos/nucita-x8.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1979,6 +2117,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini porciones de Nutella para untar, display por 12 unidades.",
+                          "sku":  "7709036475297",
                           "imagen":  "images/productos/nutella-mini-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -1993,6 +2132,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle en polvo Oka Loka.",
+                          "sku":  "7702993047804",
                           "imagen":  "images/productos/oka-chicle-polvo.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2007,6 +2147,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Oka Loka Nanos de sabores intensos, display por 12 unidades.",
+                          "sku":  "7702993049044",
                           "imagen":  "images/productos/oka-loka-nanos-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2021,6 +2162,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Oka Loka Nanos de sabores intensos, display por 24 unidades.",
+                          "sku":  "7702993049099",
                           "imagen":  "images/productos/oka-loka-nanos-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2035,6 +2177,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Oreo de crema de vainilla, tubo individual.",
+                          "sku":  "7622201693213",
                           "imagen":  "images/productos/oreo-rollo.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2049,6 +2192,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Oreo de crema de vainilla, multipack de 4 paquetes.",
+                          "sku":  "7590011151110",
                           "imagen":  "images/productos/oreo-x4.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2063,6 +2207,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Oreo de crema de vainilla, multipack de 6 paquetes.",
+                          "sku":  "7702133009013",
                           "imagen":  "images/productos/oreo-x6.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2077,6 +2222,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta para colorear la lengua, display por 50 unidades.",
+                          "sku":  "9255078601968",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2091,6 +2237,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Palitos de caramelo mentolado, bolsa por 80 unidades.",
+                          "sku":  "PALITOS DE MENTA X80",
                           "imagen":  "images/productos/palitos-de-menta-x80.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2105,6 +2252,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Panela redonda tradicional, paquete por 50 unidades.",
+                          "sku":  "1",
                           "imagen":  "images/productos/panela-redonda-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2119,6 +2267,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Pastillas de dulce Chao, display por 16 unidades.",
+                          "sku":  "7702993041949",
                           "imagen":  "images/productos/pastillas-chao-x16.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2133,6 +2282,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo duro Piazza en variedad de sabores de frutas, bolsa por 24 unidades.",
+                          "sku":  "7702011201225",
                           "imagen":  "images/productos/piazza-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2147,7 +2297,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Bola de caramelo ácido picante, display por 16 unidades.",
+                          "sku":  "878631002058",
                           "imagen":  "images/productos/pica-bola-x16.png",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "pink-hearts-x50",
+                          "categoria":  "Confitería",
+                          "marca":  "OTROS",
+                          "producto":  "Pink Hearts X50",
+                          "variante":  null,
+                          "nombreCompleto":  "Pink Hearts X50",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Caramelo en forma de corazón rosado, bolsa por 50 unidades.",
+                          "sku":  "7707014975531",
+                          "imagen":  "images/productos/pink-hearts-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -2161,6 +2327,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Pin Pop tipo bomba, bolsa por 100 unidades.",
+                          "sku":  "7702174822718",
                           "imagen":  "images/productos/pin-pop-bomba-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2175,6 +2342,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta dulce Pin Pop en formato gigante.",
+                          "sku":  "7702174087179",
                           "imagen":  "images/productos/pin-pop-gigante.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2189,6 +2357,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta Pin Pop con polvo ácido, display por 12 unidades.",
+                          "sku":  "7702174083966",
                           "imagen":  "images/productos/pin-pop-polvox12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2203,21 +2372,8 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta Pin Pop surtida en sabores, bolsa por 24 unidades.",
+                          "sku":  "7702174871532",
                           "imagen":  "images/productos/pin-pop-x24.jpg",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "pink-hearts-x50",
-                          "categoria":  "Confitería",
-                          "marca":  "OTROS",
-                          "producto":  "Pink Hearts X50",
-                          "variante":  null,
-                          "nombreCompleto":  "Pink Hearts X50",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Caramelo en forma de corazón rosado, bolsa por 50 unidades.",
-                          "imagen":  "images/productos/pink-hearts-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -2231,6 +2387,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo en palito Pirulito, display por 24 unidades.",
+                          "sku":  "7702011020987",
                           "imagen":  "images/productos/pirulito-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2245,6 +2402,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo en palito Pirulito, display por 48 unidades.",
+                          "sku":  "7702011021090",
                           "imagen":  "images/productos/pirulito-x48.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2259,6 +2417,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Polvo ácido de frutas en tarro, 110 unidades.",
+                          "sku":  "7709883055352",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2273,6 +2432,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Polvo ácido de frutas, bolsa por 80 unidades.",
+                          "sku":  "7703888297205",
                           "imagen":  "images/productos/polvo-acido-x80.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2287,6 +2447,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Helado de dulce tipo push pop, display por 20 unidades.",
+                          "sku":  "7798040463604",
                           "imagen":  "images/productos/push-popx20.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2301,6 +2462,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo Quimbayas de miel y panela, display por 18 unidades.",
+                          "sku":  "7702011014290",
                           "imagen":  "images/productos/quimbayas-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2315,6 +2477,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce tipo revolcón en gel, unidad individual.",
+                          "sku":  "7702993056196",
                           "imagen":  "images/productos/revolcon-gel-unid.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2329,6 +2492,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce tipo revolcón en gel, display por 12 unidades.",
+                          "sku":  "7702993056219",
                           "imagen":  "images/productos/revolcon-gel-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2343,6 +2507,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo Ricato de frutas surtidos, display por 50 unidades.",
+                          "sku":  "7702993046586",
                           "imagen":  "images/productos/ricato-caramelo-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2357,6 +2522,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo tipo toffee importado.",
+                          "sku":  "8684220011705",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2371,6 +2537,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Goma en forma de salchicha, display por 7 unidades.",
+                          "sku":  "7702160000014",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2385,6 +2552,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Saltín Noel sabor mantequilla, multipack de 6 paquetes.",
+                          "sku":  "7702025148127",
                           "imagen":  "images/productos/saltin-noel-mantequilla-y-queso.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2399,6 +2567,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Saltín Noel clásicas, multipack de 8 paquetes.",
+                          "sku":  "7702025150830",
                           "imagen":  "images/productos/saltin-roja-x8.png",
                           "imagenEstado":  "verificada"
                       },
@@ -2413,6 +2582,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Snack caramelo Snacky, display por 12 unidades.",
+                          "sku":  "7702011011282",
                           "imagen":  "images/productos/snacky-caram-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2427,6 +2597,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta Snow Mint, display por 12 unidades.",
+                          "sku":  "7702011137890",
                           "imagen":  "images/productos/snow-mint-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2441,6 +2612,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo ácido Sour, display por 12 unidades.",
+                          "sku":  "7702011161468",
                           "imagen":  "images/productos/sour-acido-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2455,6 +2627,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Confite espumoso Sparkies, bolsa por 20 unidades.",
+                          "sku":  "7702133462160",
                           "imagen":  "images/productos/sparkies-x-20.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2469,6 +2642,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Confite espumoso Sparkies, bolsa por 70 unidades.",
+                          "sku":  "7702133462276",
                           "imagen":  "images/productos/sparkies-x-70.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2483,6 +2657,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce líquido ácido Splot, display por 24 unidades.",
+                          "sku":  "7702011131379",
                           "imagen":  "images/productos/splot-linea-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2497,6 +2672,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce ácido Splot Ojos, display por 60 unidades.",
+                          "sku":  "7707282388156",
                           "imagen":  "images/productos/splot-ojos-x60.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2511,6 +2687,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce líquido Splot sabor sandía, display por 50 unidades.",
+                          "sku":  "7702011032683",
                           "imagen":  "images/productos/splot-sandia-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2525,6 +2702,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Turrón de coco tradicional colombiano.",
+                          "sku":  "7702993018668",
                           "imagen":  "images/productos/supercoco-turron.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2539,6 +2717,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mezcla surtida de dulces Colombina, bolsa de 500 g.",
+                          "sku":  "7702011034748",
                           "imagen":  "images/productos/surti-mix-500g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2553,6 +2732,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas surtidas Sweet Gumys, bolsa por 48 unidades.",
+                          "sku":  "7708811617877",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2567,6 +2747,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Condimento en polvo picante-ácido de fruta Tajín, presentación pequeña.",
+                          "sku":  "633148100099",
                           "imagen":  "images/productos/tajin-pequeno.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2581,6 +2762,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de tamarindo agridulce, bolsa por 100 unidades.",
+                          "sku":  "7702174086738",
                           "imagen":  "images/productos/tamarindo-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2595,6 +2777,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce Tipitín Fiesta, display por 50 unidades.",
+                          "sku":  "7702011121219",
                           "imagen":  "images/productos/tipitin-fiesta-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2609,6 +2792,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galletas Tosh integrales con miel, empaque de 9 paquetes.",
+                          "sku":  "7702025148448",
                           "imagen":  "images/productos/tosh-miel-x9.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2623,21 +2807,8 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle Trident Evup, display por 18 paquetes.",
+                          "sku":  "7506105616069",
                           "imagen":  "images/productos/trident-evup-x18.jpg",
-                          "imagenEstado":  "verificada"
-                      },
-                      {
-                          "id":  "trident-x-x30",
-                          "categoria":  "Chicles y Bonbonbum",
-                          "marca":  "Mondelēz",
-                          "producto":  "Trident X X30",
-                          "variante":  null,
-                          "nombreCompleto":  "Trident X X30",
-                          "presentacion":  null,
-                          "unidades":  null,
-                          "peso":  null,
-                          "descripcion":  "Chicle Trident X, display por 30 paquetes.",
-                          "imagen":  "images/productos/trident-x-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -2651,6 +2822,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle Trident en paquete de 3 pastillas, display por 24 paquetes.",
+                          "sku":  "7702133452192",
                           "imagen":  "images/productos/trident-x3-x24.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2665,6 +2837,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle Trident en paquete de 5 pastillas, display por 18 paquetes.",
+                          "sku":  "7622201776565",
                           "imagen":  "images/productos/trident-x5-x18.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2679,7 +2852,23 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle Trident, bolsa por 60 unidades.",
+                          "sku":  "7622201765156",
                           "imagen":  "images/productos/tridentx60.jpg",
+                          "imagenEstado":  "verificada"
+                      },
+                      {
+                          "id":  "trident-x-x30",
+                          "categoria":  "Chicles y Bonbonbum",
+                          "marca":  "Mondelēz",
+                          "producto":  "Trident X X30",
+                          "variante":  null,
+                          "nombreCompleto":  "Trident X X30",
+                          "presentacion":  null,
+                          "unidades":  null,
+                          "peso":  null,
+                          "descripcion":  "Chicle Trident X, display por 30 paquetes.",
+                          "sku":  "7622202333088",
+                          "imagen":  "images/productos/trident-x-x30.jpg",
                           "imagenEstado":  "verificada"
                       },
                       {
@@ -2693,6 +2882,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Galleta crujiente de trigo tipo trocillo, display por 12 unidades.",
+                          "sku":  "7702506110070",
                           "imagen":  "images/productos/trocillo-x12.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2707,6 +2897,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trolli surtidas, bolsa de 40 g.",
+                          "sku":  "7702174083089",
                           "imagen":  "images/productos/trolli-40g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2721,6 +2912,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trolli en forma de anaconda, bolsa por 200 unidades.",
+                          "sku":  "7702174082778",
                           "imagen":  "images/productos/trolli-anayconda-x200.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2735,6 +2927,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trolli Mordiscos en formas variadas, bolsa por 100 unidades.",
+                          "sku":  "7702174086653",
                           "imagen":  "images/productos/trolli-mordiscos-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2749,6 +2942,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trolli en forma de tortuga, bolsa por 100 unidades.",
+                          "sku":  "7702174088268",
                           "imagen":  "images/productos/trolli-tortu-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2763,6 +2957,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trululu Feroz de sabores intensos, bolsa por 25 unidades.",
+                          "sku":  "7702993022870",
                           "imagen":  "images/productos/trululu-feroz-x25.png",
                           "imagenEstado":  "verificada"
                       },
@@ -2777,6 +2972,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trululu Feroz de sabores intensos, bolsa por 50 unidades.",
+                          "sku":  "7702993010938",
                           "imagen":  "images/productos/trululu-feroz-x50.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2791,6 +2987,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trululu, bolsa de 70 g.",
+                          "sku":  "GO",
                           "imagen":  "images/productos/trululu-gomita-70g.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2805,6 +3002,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Gomitas Trululu en forma de gusano, bolsa por 200 unidades.",
+                          "sku":  "7702993017555",
                           "imagen":  "images/productos/trululu-gusano-x200.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2819,6 +3017,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Chicle frutal en tableta Tumix, bolsa por 100 unidades.",
+                          "sku":  "7703888298707",
                           "imagen":  "images/productos/tumix-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2833,6 +3032,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Dulce de formato largo Wacky Metro, display por 6 unidades.",
+                          "sku":  "9243178615619",
                           "imagen":  null,
                           "imagenEstado":  "pendiente"
                       },
@@ -2847,6 +3047,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Wafer relleno de crema tipo italiano.",
+                          "sku":  "WAFER ITALO",
                           "imagen":  "images/productos/wafer-italo.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2861,6 +3062,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Mini wafer individual con relleno de crema.",
+                          "sku":  "8699462607012",
                           "imagen":  "images/productos/wafino.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2875,6 +3077,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta Xtime, unidad individual.",
+                          "sku":  "7702011137081",
                           "imagen":  "images/productos/xtime.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2889,6 +3092,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta Xtime, bolsa por 100 unidades.",
+                          "sku":  "7702011136060",
                           "imagen":  "images/productos/xtime-x100.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2903,6 +3107,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Caramelo de menta Xtime, bolsa por 200 unidades.",
+                          "sku":  "7702011031648",
                           "imagen":  "images/productos/xtime-x200.jpg",
                           "imagenEstado":  "verificada"
                       },
@@ -2917,6 +3122,7 @@
                           "unidades":  null,
                           "peso":  null,
                           "descripcion":  "Paleta de yogur Yogueta en sabores de frutas, display por 24 unidades.",
+                          "sku":  "7702174084024",
                           "imagen":  "images/productos/yogueta-x24.jpg",
                           "imagenEstado":  "verificada"
                       }
