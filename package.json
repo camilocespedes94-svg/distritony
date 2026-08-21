@@ -1,0 +1,12 @@
+{
+  "name": "distritony-catalogo",
+  "private": true,
+  "type": "module",
+  "description": "Generador que publica data/productos.json desde Google Sheets. El sitio en sí sigue siendo HTML/CSS/JS estático sin build.",
+  "scripts": {
+    "generar-catalogo": "node scripts/sheets-to-json.mjs"
+  },
+  "dependencies": {
+    "google-auth-library": "^9"
+  }
+}

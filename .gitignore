@@ -23,13 +23,17 @@
 *.xls
 *.csv
 
-# Scripts de desarrollo y utilidades locales
+# Scripts de desarrollo y utilidades locales (PowerShell del entorno Excel).
+# El generador público (scripts/*.mjs) SÍ debe publicarse — lo ejecuta
+# GitHub Actions, así que no puede quedar fuera del repo.
 *.ps1
 *.bat
 *.cmd
 *.sh
-/scripts/
 server.ps1
+
+# Salida de prueba del generador (Fase 7) — nunca es el catálogo publicado
+data/productos.sheets-test.json
 
 # Documentación interna que no forma parte del sitio
 BRAND-SYSTEM.md

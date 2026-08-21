@@ -1,0 +1,39 @@
+name: Prueba - generar catálogo desde Sheets
+
+# Manual únicamente (Fase 7: probar sin afectar producción).
+# Este workflow NUNCA escribe data/productos.json ni hace commit/push.
+# Genera un archivo aparte (data/productos.sheets-test.json) y lo publica
+# como artefacto descargable para revisión humana.
+on:
+  workflow_dispatch: {}
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Instalar dependencias
+        run: npm install --no-save google-auth-library
+
+      - name: Generar catálogo de prueba (no toca producción)
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
+          OUTPUT_PATH: data/productos.sheets-test.json
+        run: node scripts/sheets-to-json.mjs
+
+      - name: Comparar contra el catálogo publicado
+        run: node scripts/comparar-prueba.mjs data/productos.sheets-test.json
+
+      - name: Publicar resultado como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: productos-sheets-test
+          path: data/productos.sheets-test.json
+          retention-days: 7
