@@ -101,7 +101,7 @@ Dos formas distintas de "sacar" un producto, para dos situaciones distintas:
 | Quiero que el producto... | Qué hacer | Qué ve el cliente |
 |---|---|---|
 | **Deje de existir** en el catálogo (se descontinuó, ya no se distribuye) | Bórralo de `productos.json`, o quítalo en el siguiente ciclo de generación desde el Excel maestro | Desaparece por completo |
-| **Se agote temporalmente**, pero siga siendo un producto real | Cambia su campo `"disponibilidad"` de `"disponible"` a `"no_disponible"` | Sigue viendo la tarjeta, con su foto y su precio, pero con una franja roja **"No disponible"** y sin poder agregarlo al pedido |
+| **Se agote temporalmente**, pero siga siendo un producto real | Cambia su campo `"disponibilidad"` de `"disponible"` a `"no_disponible"` | Sigue viendo la tarjeta, con su foto y su precio, pero con una franja roja **"Agotado"** y sin poder agregarlo al pedido |
 | **Vuelva a estar en venta** | Cambia `"disponibilidad"` de vuelta a `"disponible"` | Vuelve a comprarse normalmente |
 
 No confundas los dos casos: borrar del JSON es para lo que ya no se vende nunca más; cambiar

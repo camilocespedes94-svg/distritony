@@ -377,7 +377,7 @@ function applyCardState(card, qty) {
   if (card.dataset.disponible === "no") {
     addBtn.hidden = false;
     addBtn.disabled = true;
-    addBtn.querySelector(".card-order-label").textContent = "No disponible";
+    addBtn.querySelector(".card-order-label").textContent = "Agotado";
     inCart.hidden = true;
     return;
   }

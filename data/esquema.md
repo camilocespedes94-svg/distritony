@@ -89,7 +89,7 @@ Son dos conceptos distintos y no deben mezclarse:
 | | VIGENTE | disponibilidad |
 |---|---|---|
 | **Qué decide** | Si el producto existe en el catálogo | Si ese producto, existiendo, se puede agregar al pedido |
-| **`NO` / `no_disponible`** | El producto **desaparece** por completo del catálogo | El producto **sigue visible**, con precio, pero con una franja "No disponible" y el botón deshabilitado |
+| **`NO` / `no_disponible`** | El producto **desaparece** por completo del catálogo | El producto **sigue visible**, con precio, pero con una franja "Agotado" y el botón deshabilitado |
 | **Dónde vive** | Columna `VIGENTE` del Excel — nunca llega a `productos.json` | Campo `disponibilidad` de `productos.json` |
 | **Quién lo controla hoy** | El Excel maestro | El propio catálogo (no existe columna en el Excel para esto) |
 
