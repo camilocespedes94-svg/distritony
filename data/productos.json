@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "Google Sheets",
-    "ultima_actualizacion": "2026-08-21",
+    "ultima_actualizacion": "2026-08-22",
     "total_productos": 206,
     "categorias": {
       "Chicles y Bonbonbum": {
@@ -269,7 +269,7 @@
       "descripcion": "Bombón Bon Bon Bum con chicle sabor fresa, bolsa por 24 unidades.",
       "sku": "7702011161505",
       "precio": 10500,
-      "disponibilidad": "no_disponible",
+      "disponibilidad": "disponible",
       "imagen": "images/productos/bb-x24-fresa.jpg",
       "imagenEstado": "verificada"
     },
@@ -286,7 +286,7 @@
       "descripcion": "Bombón Bon Bon Bum con chicle sabor lulo, bolsa por 24 unidades.",
       "sku": "7702011147677",
       "precio": 10500,
-      "disponibilidad": "no_disponible",
+      "disponibilidad": "disponible",
       "imagen": "images/productos/bb-x24-lulo.png",
       "imagenEstado": "verificada"
     },
@@ -303,7 +303,7 @@
       "descripcion": "Bombón Bon Bon Bum con chicle sabor maracuyá, bolsa por 24 unidades.",
       "sku": "7702011151575",
       "precio": 10500,
-      "disponibilidad": "no_disponible",
+      "disponibilidad": "disponible",
       "imagen": "images/productos/bb-x24-maracuya.jpg",
       "imagenEstado": "verificada"
     },
@@ -320,7 +320,7 @@
       "descripcion": "Bombón Bon Bon Bum con chicle sabor sandía, bolsa por 24 unidades.",
       "sku": "7702011281180",
       "precio": 10500,
-      "disponibilidad": "no_disponible",
+      "disponibilidad": "disponible",
       "imagen": "images/productos/bb-x24-sandia.jpg",
       "imagenEstado": "verificada"
     },
@@ -728,7 +728,7 @@
       "descripcion": "Cepillos de dientes, display por 30 unidades.",
       "sku": "6939343200089",
       "precio": 30000,
-      "disponibilidad": "disponible",
+      "disponibilidad": "no_disponible",
       "imagen": "images/productos/cepillos-x30.jpg",
       "imagenEstado": "verificada"
     },
@@ -2547,7 +2547,7 @@
       "descripcion": "Panela redonda tradicional, paquete por 50 unidades.",
       "sku": "1",
       "precio": 7500,
-      "disponibilidad": "disponible",
+      "disponibilidad": "no_disponible",
       "imagen": "images/productos/panela-redonda-x50.jpg",
       "imagenEstado": "verificada"
     },
