@@ -182,7 +182,7 @@ async function main() {
     const nombre = fila.Nombre || "";
     let id = fila.ID;
     if (!id) {
-      const candidato = slugify(`${fila.Marca}-${nombre}`);
+      const candidato = slugify(`${fila.Fabricante}-${nombre}`);
       advertencias.push(
         `Producto "${nombre}" no tiene ID en la hoja. ID candidato: "${candidato}" — ` +
           `cópialo a la columna A para que quede estable. Esta corrida NO lo escribe en la hoja.`
@@ -232,7 +232,7 @@ async function main() {
     productos.push({
       id,
       categoria: fila.Categoria || null,
-      marca: fila.Marca || null,
+      marca: fila.Fabricante || null,
       producto: nombre || null,
       variante: null,
       nombreCompleto: nombre || null,
