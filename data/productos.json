@@ -1,7 +1,7 @@
 {
   "meta": {
     "fuente": "Google Sheets",
-    "ultima_actualizacion": "2026-08-22",
+    "ultima_actualizacion": "2026-08-24",
     "total_productos": 206,
     "categorias": {
       "Chicles y Bonbonbum": {
@@ -717,7 +717,7 @@
     },
     {
       "id": "cepillos-x30",
-      "categoria": "OTROS",
+      "categoria": "Confitería",
       "marca": "OTROS",
       "producto": "Cepillos X30",
       "variante": null,
