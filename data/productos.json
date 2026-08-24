@@ -6,27 +6,27 @@
     "categorias": {
       "Chicles y Bonbonbum": {
         "icono": "🫧",
-        "color": "##B03A63"
+        "color": "#B03A63"
       },
       "Chocolates": {
         "icono": "🍫",
-        "color": "##4A2E1E"
+        "color": "#4A2E1E"
       },
       "Confitería": {
         "icono": "🍬",
-        "color": "##C41E33"
+        "color": "#C41E33"
       },
       "Galletería": {
         "icono": "🍪",
-        "color": "##A06200"
+        "color": "#A06200"
       },
       "Gomas": {
         "icono": "🐻",
-        "color": "##4F6B23"
+        "color": "#4F6B23"
       },
       "OTROS": {
         "icono": "📦",
-        "color": "##7A5540"
+        "color": "#7A5540"
       },
       "_default": {
         "icono": "📦",
@@ -2544,7 +2544,7 @@
       "presentacion": null,
       "unidades": null,
       "peso": null,
-      "descripcion": "Panela redonda tradicional, paquete por 50 unidades.",
+      "descripcion": "Panelita de leche redonda, por 50 unidades.",
       "sku": "1",
       "precio": 7500,
       "disponibilidad": "no_disponible",
