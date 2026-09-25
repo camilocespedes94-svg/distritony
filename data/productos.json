@@ -2821,7 +2821,7 @@
       "precio": 16500,
       "disponibilidad": "disponible",
       "imagen": "images/productos/goma-trululu-dragones-x25.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "fruticas-cruji-x100",
@@ -2957,7 +2957,7 @@
       "precio": 7800,
       "disponibilidad": "disponible",
       "imagen": "images/productos/hiper-wafer-fresa-x8.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-barra-mora-azul-x12",
@@ -2991,7 +2991,7 @@
       "precio": 21000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/halls-barra-miel-x12.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-barra-yerbabuena-x12",
@@ -3008,7 +3008,7 @@
       "precio": 21000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/halls-barra-yerbabuena-x12.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "mondelez-halls-barra-x12",
@@ -3110,7 +3110,7 @@
       "precio": 25000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/dulce-en-jeringa-x30.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "chao-linea-original-x24",
@@ -3246,7 +3246,7 @@
       "precio": 10200,
       "disponibilidad": "disponible",
       "imagen": "images/productos/boloncho-pintalengua-x30.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "fruna-cubo-original-x26",
@@ -3331,7 +3331,7 @@
       "precio": 14000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/splot-tatoo-x120.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "agogo-mini-x500",
@@ -3365,7 +3365,7 @@
       "precio": 17000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/caramelo-le-squisit-x100.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "goma-trolli-xxl",
@@ -3416,12 +3416,12 @@
       "precio": 7200,
       "disponibilidad": "disponible",
       "imagen": "images/productos/hiper-wafer-vainilla-x12.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "galletas-rueditas-choco-vainilla-x4-12-unid",
       "categoria": "Galletería",
-      "marca": "OTROS",
+      "marca": "Americandy",
       "producto": "Galletas Rueditas Choco Vainilla X4 12 Unid",
       "variante": null,
       "nombreCompleto": "Galletas Rueditas Choco Vainilla X4 12 Unid",
@@ -3432,8 +3432,8 @@
       "sku": "7707014994174",
       "precio": 6800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/galletas-rueditas-choco-vainilla-x4-12-unid.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "chicle-futbol-x100",
@@ -3450,7 +3450,7 @@
       "precio": 24000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/chicle-futbol-x100.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "roll-on-caramelo-liquido-x10",
@@ -3467,7 +3467,7 @@
       "precio": 27000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/roll-on-caramelo-liquido-x10.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "caramelo-ula-ula-x100",
@@ -3518,7 +3518,7 @@
       "precio": 16000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/tumix-multi-x20.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "dulce-frutas-rellenas-x100",
@@ -3676,7 +3676,7 @@
     {
       "id": "galletas-rueditas-fresa-x4-12-ud",
       "categoria": "Galletería",
-      "marca": "OTROS",
+      "marca": "Americandy",
       "producto": "Galletas Rueditas Fresa X4 12 Ud",
       "variante": null,
       "nombreCompleto": "Galletas Rueditas Fresa X4 12 Ud",
@@ -3688,7 +3688,7 @@
       "precio": 6800,
       "disponibilidad": "disponible",
       "imagen": "images/productos/galletas-rueditas-fresa-x4-12-ud.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "mechas-locas-surtido-x6",
@@ -3705,7 +3705,7 @@
       "precio": 21600,
       "disponibilidad": "disponible",
       "imagen": "images/productos/mechas-locas-surtido-x6.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "almendra-italo70g-x12-unidades",
@@ -3756,7 +3756,7 @@
       "precio": 14200,
       "disponibilidad": "disponible",
       "imagen": "images/productos/oreo-original-x6-10-unid.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-barra-menta-x12",
@@ -3824,7 +3824,7 @@
       "precio": 17800,
       "disponibilidad": "disponible",
       "imagen": "images/productos/salsa-chamoy-tajin.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "caramelo-frunas-rellena-x50",
@@ -3892,7 +3892,7 @@
       "precio": 48000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/mani-sal-x24.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "pata-lengua-x10-dr-look",
@@ -4096,7 +4096,7 @@
       "precio": 25000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/trident-x40.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "mango-bola-chicle-x60",
@@ -4147,7 +4147,7 @@
       "precio": 7800,
       "disponibilidad": "disponible",
       "imagen": "images/productos/hiper-wafer-vainilla-x8.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "tumix-x400",
@@ -4198,7 +4198,7 @@
       "precio": 36000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/mariquitas-x100.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "jumbo-mani-x24",
@@ -4266,7 +4266,7 @@
       "precio": 13700,
       "disponibilidad": "disponible",
       "imagen": "images/productos/oka-loka-fusion-x15.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "anisado-dulce-x100",
@@ -4385,7 +4385,7 @@
       "precio": 66000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/mani-pimienta-x24.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "choco-car-x50",
@@ -4419,7 +4419,7 @@
       "precio": 11200,
       "disponibilidad": "disponible",
       "imagen": "images/productos/jumbo-xs-x28.jpg",
-      "imagenEstado": "revisar"
+      "imagenEstado": "verificada"
     },
     {
       "id": "revolcon-chupeta-x12",
