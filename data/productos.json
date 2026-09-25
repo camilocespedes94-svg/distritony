@@ -55,7 +55,7 @@
     {
       "id": "almendra-27g",
       "categoria": "Confitería",
-      "marca": "Colombina",
+      "marca": "Italo",
       "producto": "Almendra Italo 27G",
       "variante": null,
       "nombreCompleto": "Almendra Italo 27G",
@@ -72,7 +72,7 @@
     {
       "id": "almendra-50g",
       "categoria": "Confitería",
-      "marca": "Colombina",
+      "marca": "Italo",
       "producto": "Almendra Italo 50G",
       "variante": null,
       "nombreCompleto": "Almendra Italo 50G",
@@ -89,7 +89,7 @@
     {
       "id": "almendra-tarro-x100",
       "categoria": "Confitería",
-      "marca": "Colombina",
+      "marca": "Italo",
       "producto": "Almendra Tarro X100",
       "variante": null,
       "nombreCompleto": "Almendra Tarro X100",
@@ -1160,7 +1160,7 @@
     {
       "id": "hiper-wafer-x12",
       "categoria": "Galletería",
-      "marca": "OTROS",
+      "marca": "Italo",
       "producto": "Hiper Wafer Fresa X12",
       "variante": null,
       "nombreCompleto": "Hiper Wafer Fresa X12",
@@ -1177,7 +1177,7 @@
     {
       "id": "hiper-wafer-x8",
       "categoria": "Galletería",
-      "marca": "OTROS",
+      "marca": "Italo",
       "producto": "Hiper Wafer Arequipe X8",
       "variante": null,
       "nombreCompleto": "Hiper Wafer Arequipe X8",
@@ -2707,7 +2707,7 @@
     {
       "id": "wafer-italo",
       "categoria": "Galletería",
-      "marca": "OTROS",
+      "marca": "Italo",
       "producto": "Wafer Italo",
       "variante": null,
       "nombreCompleto": "Wafer Italo",
@@ -2820,8 +2820,8 @@
       "sku": "7702993041475",
       "precio": 16500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/goma-trululu-dragones-x25.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "fruticas-cruji-x100",
@@ -2837,8 +2837,8 @@
       "sku": "7702011055309",
       "precio": 12000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/fruticas-cruji-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "max-combi-x100",
@@ -2854,8 +2854,8 @@
       "sku": "7702011028761",
       "precio": 9000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/max-combi-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-pepa-negro-x100",
@@ -2888,8 +2888,8 @@
       "sku": "7702174749244",
       "precio": 9500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mini-aros-frunas-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "brinky-mixtery-manzuva-x10",
@@ -2905,8 +2905,8 @@
       "sku": "7702011208187",
       "precio": 11800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/brinky-mixtery-manzuva-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "millows-mini-x30",
@@ -2922,8 +2922,8 @@
       "sku": "7702011030726",
       "precio": 25000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/millows-mini-x30.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "revolcon-chicle-x50",
@@ -2939,8 +2939,8 @@
       "sku": "7702993028414",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/revolcon-chicle-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "hiper-wafer-fresa-x8",
@@ -2956,8 +2956,8 @@
       "sku": "7702117001866",
       "precio": 7800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/hiper-wafer-fresa-x8.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "halls-barra-mora-azul-x12",
@@ -2973,8 +2973,8 @@
       "sku": "7622210426994",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-barra-mora-azul-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-barra-miel-x12",
@@ -2990,8 +2990,8 @@
       "sku": "7622201776442",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-barra-miel-x12.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "halls-barra-yerbabuena-x12",
@@ -3007,8 +3007,8 @@
       "sku": "7702133413940",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-barra-yerbabuena-x12.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "mondelez-halls-barra-x12",
@@ -3041,8 +3041,8 @@
       "sku": "7702011009722",
       "precio": 12000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/fruticas-love-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "bianchi-caramelo-chocolate-x100",
@@ -3058,8 +3058,8 @@
       "sku": "7702993058862",
       "precio": 14800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/bianchi-caramelo-chocolate-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mini-gumm",
@@ -3092,8 +3092,8 @@
       "sku": "7702007039894",
       "precio": 25200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chocolatina-gol-coco.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "dulce-en-jeringa-x30",
@@ -3109,8 +3109,8 @@
       "sku": "6920484029103",
       "precio": 25000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/dulce-en-jeringa-x30.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "chao-linea-original-x24",
@@ -3126,8 +3126,8 @@
       "sku": "7702993031032",
       "precio": 11500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chao-linea-original-x24.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "tumix-surtido-x300",
@@ -3143,8 +3143,8 @@
       "sku": "7703888298806",
       "precio": 31500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/tumix-surtido-x300.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "brinky-fresa-x10",
@@ -3160,8 +3160,8 @@
       "sku": "7702011269911",
       "precio": 11800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/brinky-fresa-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "colombina-tajin-x30",
@@ -3194,8 +3194,8 @@
       "sku": "7702011269935",
       "precio": 11800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/brinky-vainilla-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "oka-loka-fusion-x12",
@@ -3211,8 +3211,8 @@
       "sku": "7702993049013",
       "precio": 11000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/oka-loka-fusion-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "menta-chao-fresa-x100",
@@ -3228,8 +3228,8 @@
       "sku": "7702993051030",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/menta-chao-fresa-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "boloncho-pintalengua-x30",
@@ -3245,8 +3245,8 @@
       "sku": "7707928443201",
       "precio": 10200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/boloncho-pintalengua-x30.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "fruna-cubo-original-x26",
@@ -3262,8 +3262,8 @@
       "sku": "7702174087582",
       "precio": 11000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/fruna-cubo-original-x26.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "revolcon-polvo-x12",
@@ -3279,8 +3279,8 @@
       "sku": "7702993056189",
       "precio": 8000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/revolcon-polvo-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "gelly-tarro-x90",
@@ -3313,8 +3313,8 @@
       "sku": "7707298441708",
       "precio": 10000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chicle-sandia-x60.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "splot-tatoo-x120",
@@ -3330,8 +3330,8 @@
       "sku": "7707282387609",
       "precio": 14000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/splot-tatoo-x120.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "agogo-mini-x500",
@@ -3347,8 +3347,8 @@
       "sku": "7703888297854",
       "precio": 12800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/agogo-mini-x500.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "caramelo-le-squisit-x100",
@@ -3364,8 +3364,8 @@
       "sku": "7707014940317",
       "precio": 17000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/caramelo-le-squisit-x100.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "goma-trolli-xxl",
@@ -3398,8 +3398,8 @@
       "sku": "7702025182145",
       "precio": 15000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/festival-x6-fresa.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "hiper-wafer-vainilla-x12",
@@ -3415,8 +3415,8 @@
       "sku": "7702117002504",
       "precio": 7200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/hiper-wafer-vainilla-x12.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "galletas-rueditas-choco-vainilla-x4-12-unid",
@@ -3449,8 +3449,8 @@
       "sku": "6920484029677",
       "precio": 24000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chicle-futbol-x100.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "roll-on-caramelo-liquido-x10",
@@ -3466,8 +3466,8 @@
       "sku": "7703888780547",
       "precio": 27000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/roll-on-caramelo-liquido-x10.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "caramelo-ula-ula-x100",
@@ -3483,8 +3483,8 @@
       "sku": "7702993059586",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/caramelo-ula-ula-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "brinky-limon-x10",
@@ -3500,8 +3500,8 @@
       "sku": "7702011269928",
       "precio": 11800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/brinky-limon-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "tumix-multi-x20",
@@ -3517,8 +3517,8 @@
       "sku": "7758102005838",
       "precio": 16000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/tumix-multi-x20.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "dulce-frutas-rellenas-x100",
@@ -3534,8 +3534,8 @@
       "sku": "7707014908287",
       "precio": 7500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/dulce-frutas-rellenas-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trululu-gusano-rto-x100",
@@ -3551,8 +3551,8 @@
       "sku": "7702993028346",
       "precio": 9000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trululu-gusano-rto-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trululu-aros-x100",
@@ -3568,8 +3568,8 @@
       "sku": "7702993010648",
       "precio": 17000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trululu-aros-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "chocolatina-gol-mini-x24",
@@ -3585,8 +3585,8 @@
       "sku": "7702007080575",
       "precio": 22000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chocolatina-gol-mini-x24.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trident-botella-fresa",
@@ -3602,8 +3602,8 @@
       "sku": "7622201735432",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trident-botella-fresa.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mechas-locas-aliens-x6",
@@ -3619,8 +3619,8 @@
       "sku": "7702174079822",
       "precio": 21600,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mechas-locas-aliens-x6.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "jet-pistacho-x8",
@@ -3636,8 +3636,8 @@
       "sku": "7702007091366",
       "precio": 25000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/jet-pistacho-x8.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "quipitos-x24",
@@ -3670,8 +3670,8 @@
       "sku": "7703888292491",
       "precio": 7800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/agogo-gigante-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "galletas-rueditas-fresa-x4-12-ud",
@@ -3687,8 +3687,8 @@
       "sku": "7707014949624",
       "precio": 6800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/galletas-rueditas-fresa-x4-12-ud.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "mechas-locas-surtido-x6",
@@ -3704,8 +3704,8 @@
       "sku": "7702174073257",
       "precio": 21600,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mechas-locas-surtido-x6.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "almendra-italo70g-x12-unidades",
@@ -3721,8 +3721,8 @@
       "sku": "7702117011940",
       "precio": 26000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/almendra-italo70g-x12-unidades.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "chocolatina-gol-leche-condensada-x15",
@@ -3755,8 +3755,8 @@
       "sku": "7622202846298",
       "precio": 14200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/oreo-original-x6-10-unid.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "halls-barra-menta-x12",
@@ -3772,8 +3772,8 @@
       "sku": "7622210426970",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-barra-menta-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "almendra-italo-135g",
@@ -3789,8 +3789,8 @@
       "sku": "7702117008193",
       "precio": 8400,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/almendra-italo-135g.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "halls-barra-extrafuerte-x12",
@@ -3806,8 +3806,8 @@
       "sku": "7622202015205",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-barra-extrafuerte-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "salsa-chamoy-tajin",
@@ -3823,8 +3823,8 @@
       "sku": "633148100617",
       "precio": 17800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/salsa-chamoy-tajin.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "caramelo-frunas-rellena-x50",
@@ -3840,8 +3840,8 @@
       "sku": "7702174087612",
       "precio": 6600,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/caramelo-frunas-rellena-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "roll-on-unidad",
@@ -3857,8 +3857,8 @@
       "sku": "7703888445064",
       "precio": 3000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/roll-on-unidad.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "tumix-stick-x100",
@@ -3874,8 +3874,8 @@
       "sku": "7703888893582",
       "precio": 7800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/tumix-stick-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mani-sal-x24",
@@ -3891,8 +3891,8 @@
       "sku": "7702007083262",
       "precio": 48000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mani-sal-x24.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "pata-lengua-x10-dr-look",
@@ -3925,8 +3925,8 @@
       "sku": "7702993031711",
       "precio": 11500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chao-linea-fresa-x24.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "potecito-chicle-x10",
@@ -3942,8 +3942,8 @@
       "sku": "7709516054783",
       "precio": 10000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/potecito-chicle-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trolli-gusano-rto",
@@ -3993,8 +3993,8 @@
       "sku": "7707014902674",
       "precio": 8800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/fresillas-baby-big-bom-x48.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "roller-finni-unid",
@@ -4010,8 +4010,8 @@
       "sku": "8410525200182",
       "precio": 1250,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/roller-finni-unid.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "revolcon-caramelo-x50",
@@ -4027,8 +4027,8 @@
       "sku": "7702993032732",
       "precio": 7300,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/revolcon-caramelo-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "chupeta-pink-hearts-blue-x50",
@@ -4044,8 +4044,8 @@
       "sku": "7707014961879",
       "precio": 7000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chupeta-pink-hearts-blue-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "ensalada-de-frutas-fini-chicle",
@@ -4061,8 +4061,8 @@
       "sku": "7898591459603",
       "precio": 3500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/ensalada-de-frutas-fini-chicle.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "sandia-chicle-finni",
@@ -4078,8 +4078,8 @@
       "sku": "7898591459597",
       "precio": 3500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/sandia-chicle-finni.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trident-x40",
@@ -4095,8 +4095,8 @@
       "sku": "7622210171115",
       "precio": 25000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trident-x40.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "mango-bola-chicle-x60",
@@ -4112,8 +4112,8 @@
       "sku": "7707298441333",
       "precio": 10000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mango-bola-chicle-x60.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "chocolate-miami-kilo",
@@ -4146,8 +4146,8 @@
       "sku": "7702117001774",
       "precio": 7800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/hiper-wafer-vainilla-x8.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "tumix-x400",
@@ -4163,8 +4163,8 @@
       "sku": "TUMIX X400",
       "precio": 41000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/tumix-x400.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "traga-notas-x10",
@@ -4180,8 +4180,8 @@
       "sku": "7703888296277",
       "precio": 28500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/traga-notas-x10.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mariquitas-x100",
@@ -4197,8 +4197,8 @@
       "sku": "8682134081623",
       "precio": 36000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mariquitas-x100.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "jumbo-mani-x24",
@@ -4248,8 +4248,8 @@
       "sku": "7702007065640",
       "precio": 2000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mix-nueces-especial-40g.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "oka-loka-fusion-x15",
@@ -4265,8 +4265,8 @@
       "sku": "7702993051955",
       "precio": 13700,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/oka-loka-fusion-x15.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "anisado-dulce-x100",
@@ -4282,8 +4282,8 @@
       "sku": "7702011016812",
       "precio": 7600,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/anisado-dulce-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "hojaldra-pastel-x18",
@@ -4316,8 +4316,8 @@
       "sku": "7702011155511",
       "precio": 12000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/coffe-cappuccino-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "trululu-crunchy-x12",
@@ -4333,8 +4333,8 @@
       "sku": "7702993055922",
       "precio": 11000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trululu-crunchy-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "jumbo-mani-x6",
@@ -4350,8 +4350,8 @@
       "sku": "7702007080421",
       "precio": 46000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/jumbo-mani-x6.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "bombonera-gelatina-x90",
@@ -4384,8 +4384,8 @@
       "sku": "7702007059908",
       "precio": 66000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mani-pimienta-x24.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "choco-car-x50",
@@ -4418,8 +4418,8 @@
       "sku": "7702007083484",
       "precio": 11200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/jumbo-xs-x28.jpg",
+      "imagenEstado": "revisar"
     },
     {
       "id": "revolcon-chupeta-x12",
@@ -4435,8 +4435,8 @@
       "sku": "7702993053485",
       "precio": 12800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/revolcon-chupeta-x12.jpg",
+      "imagenEstado": "verificada"
     }
   ]
 }
