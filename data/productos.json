@@ -3364,8 +3364,8 @@
       "sku": "GOMA TROLLI",
       "precio": 2300,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/goma-trolli-xxl.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "festival-x6-fresa",
@@ -3721,8 +3721,8 @@
       "sku": "7702007091779",
       "precio": 22800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chocolatina-gol-leche-condensada-x15.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "oreo-original-x6-10-unid",
@@ -3932,9 +3932,9 @@
       "id": "trolli-gusano-rto",
       "categoria": "Gomas",
       "marca": "Aldor",
-      "producto": "Trolli Gusano Rto",
+      "producto": "Trolli Gusano Repuesto",
       "variante": null,
-      "nombreCompleto": "Trolli Gusano Rto",
+      "nombreCompleto": "Trolli Gusano Repuesto",
       "presentacion": null,
       "unidades": null,
       "peso": null,
@@ -3942,8 +3942,8 @@
       "sku": "7702174082785",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/trolli-gusano-rto.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "bianchi-crunchy-xl-x12",
@@ -3959,8 +3959,8 @@
       "sku": "7702993042625",
       "precio": 18800,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/bianchi-crunchy-xl-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "fresillas-baby-big-bom-x48",
@@ -4197,8 +4197,8 @@
       "sku": "7702007080391",
       "precio": 80000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/jumbo-mani-x24.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "festival-x4",
@@ -4214,8 +4214,8 @@
       "sku": "7702025103829",
       "precio": 12000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/festival-x4.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mix-nueces-especial-40g",
@@ -4384,8 +4384,8 @@
       "sku": "7708527098090",
       "precio": 14000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/choco-car-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "jumbo-xs-x28",
