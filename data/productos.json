@@ -151,8 +151,8 @@
       "sku": "7702993050194",
       "precio": 10200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/atomos-x48.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "barrilete-revolcon-x40",
@@ -389,8 +389,8 @@
       "sku": "7702993018606",
       "precio": 9200,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/bombazox50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "bombonera-x80",
@@ -763,8 +763,8 @@
       "sku": "7758102006088",
       "precio": 10000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/chupete-super-hyper-x24.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "cintasx-96",
@@ -1341,8 +1341,8 @@
       "sku": "7707014955724",
       "precio": 28000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/king-ball-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "labios-rojos-x40",
@@ -1511,8 +1511,8 @@
       "sku": "7702011129369",
       "precio": 8500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/menta-surtida-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "millows-x50",
@@ -1647,8 +1647,8 @@
       "sku": "7702174061414",
       "precio": 11000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mist-menta-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mont-blanc-fresa",
@@ -1732,8 +1732,8 @@
       "sku": "7702011062024",
       "precio": 6500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/muuu-cremada-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "noel-leche-x21",
@@ -1953,8 +1953,8 @@
       "sku": "9255078601968",
       "precio": 20000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/paint-pop-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "palitos-de-menta-x80",
@@ -2225,8 +2225,8 @@
       "sku": "7702160000014",
       "precio": 4500,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/salchicha-ronda-x7.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "saltin-manteq-x6",
@@ -2786,8 +2786,8 @@
       "sku": "7707014915537",
       "precio": 8000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/caramelo-le-squisit-x50.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "goma-trululu-dragones-x25",
@@ -2854,8 +2854,8 @@
       "sku": "7702133445118",
       "precio": 17000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/halls-pepa-negro-x100.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "mini-aros-frunas-x100",
@@ -3007,8 +3007,8 @@
       "sku": "7622210426987",
       "precio": 21000,
       "disponibilidad": "disponible",
-      "imagen": null,
-      "imagenEstado": "pendiente"
+      "imagen": "images/productos/mondelez-halls-barra-x12.jpg",
+      "imagenEstado": "verificada"
     },
     {
       "id": "fruticas-love-x100",
