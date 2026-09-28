@@ -1,8 +1,8 @@
 {
   "meta": {
     "fuente": "Google Sheets",
-    "ultima_actualizacion": "2026-09-25",
-    "total_productos": 259,
+    "ultima_actualizacion": "2026-09-28",
+    "total_productos": 258,
     "categorias": {
       "Chicles y Bonbonbum": {
         "icono": "🫧",
@@ -220,23 +220,6 @@
       "precio": 13000,
       "disponibilidad": "disponible",
       "imagen": "images/productos/bb-coco-x24.jpg",
-      "imagenEstado": "verificada"
-    },
-    {
-      "id": "bb-x24-lulo",
-      "categoria": "Chicles y Bonbonbum",
-      "marca": "Colombina",
-      "producto": "Bonbonbum Lulo X24",
-      "variante": null,
-      "nombreCompleto": "Bonbonbum Lulo X24",
-      "presentacion": null,
-      "unidades": null,
-      "peso": null,
-      "descripcion": "Bombón Bon Bon Bum con chicle sabor lulo, bolsa por 24 unidades.",
-      "sku": "7702011147677",
-      "precio": 10500,
-      "disponibilidad": "disponible",
-      "imagen": "images/productos/bb-x24-lulo.png",
       "imagenEstado": "verificada"
     },
     {
